@@ -1,0 +1,9 @@
+
+        private void btnAlign_Click(object sender, EventArgs e)
+        {
+            btnAlign.TextAlign = ContentAlignment.MiddleCenter;
+            btnAlign.ImageAlign = ContentAlignment.MiddleCenter;
+            btnAlign.Text = ContentAlignment.MiddleCenter.ToString();
+
+            _position = 0;
+        }

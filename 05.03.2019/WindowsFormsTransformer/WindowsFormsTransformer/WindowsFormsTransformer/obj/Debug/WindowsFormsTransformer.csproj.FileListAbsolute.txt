@@ -1,0 +1,11 @@
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\bin\Debug\WindowsFormsTransformer.exe.config
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\bin\Debug\WindowsFormsTransformer.exe
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\bin\Debug\WindowsFormsTransformer.pdb
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.Form1.resources
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.Properties.Resources.resources
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.csproj.GenerateResource.cache
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.csproj.CoreCompileInputs.cache
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.exe
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.pdb
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.Form2.resources
+C:\Users\Захарченко.Марина\source\repos\WindowsFormsTransformer\WindowsFormsTransformer\obj\Debug\WindowsFormsTransformer.csprojAssemblyReference.cache

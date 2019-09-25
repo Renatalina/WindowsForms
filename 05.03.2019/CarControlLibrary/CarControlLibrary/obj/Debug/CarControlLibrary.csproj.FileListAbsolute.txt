@@ -1,0 +1,8 @@
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\bin\Debug\CarControlLibrary.dll
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\bin\Debug\CarControlLibrary.pdb
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\obj\Debug\CarControlLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\obj\Debug\CarControlLibrary.UserControl1.resources
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\obj\Debug\CarControlLibrary.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\obj\Debug\CarControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\obj\Debug\CarControlLibrary.dll
+C:\Users\Висковатых.Наталия\source\repos\CarControlLibrary\CarControlLibrary\obj\Debug\CarControlLibrary.pdb

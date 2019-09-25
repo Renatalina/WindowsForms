@@ -1,0 +1,11 @@
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\bin\Debug\WFMenu.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\bin\Debug\WFMenu.exe
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\bin\Debug\WFMenu.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.exe
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFMenu\WFMenu\obj\Debug\WFMenu.About.resources

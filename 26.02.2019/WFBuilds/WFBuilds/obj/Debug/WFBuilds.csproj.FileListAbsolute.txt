@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\bin\Debug\WFBuilds.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\bin\Debug\WFBuilds.exe
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\bin\Debug\WFBuilds.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\obj\Debug\WFBuilds.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\obj\Debug\WFBuilds.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\obj\Debug\WFBuilds.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\obj\Debug\WFBuilds.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\obj\Debug\WFBuilds.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\obj\Debug\WFBuilds.exe
+C:\Users\Висковатых.Наталия\source\repos\WFBuilds\WFBuilds\obj\Debug\WFBuilds.pdb

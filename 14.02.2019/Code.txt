@@ -1,0 +1,122 @@
+https://meet.google.com/ppr-mkrq-oyc
+
+
+        private void btnAddRoot_Click(object sender, EventArgs e)
+        {
+            treeViewBouquet.Nodes.Add($"Root node# {treeViewBouquet.Nodes.Count + 1}");
+        }
+
+        private void btnAddChild_Click(object sender, EventArgs e)
+        {
+            if (treeViewBouquet.SelectedNode != null)
+            {
+                treeViewBouquet.SelectedNode.Nodes.Add($"Child root# {treeViewBouquet.SelectedNode.Nodes.Count + 1}");
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (treeViewBouquet.SelectedNode != null)
+            {
+                switch (MessageBox.Show("Delete root (Yes), child (No)?", "Delete", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
+                {
+                    case DialogResult.Yes:
+                        treeViewBouquet.SelectedNode.Remove();
+                        break;
+                    case DialogResult.No:
+                        treeViewBouquet.SelectedNode.Nodes.Clear();
+                        break;
+                }
+            }
+        }
+
+        StringBuilder _result = new StringBuilder();
+        private void btnView_Click(object sender, EventArgs e)
+        {
+            _result.Clear();
+
+            ViewCollection(treeViewBouquet.Nodes);
+
+            MessageBox.Show(_result.ToString());
+        }
+
+        int _count = 0;
+        string _tab = "\t";
+        private void ViewCollection(TreeNodeCollection nodes)
+        {
+            foreach (TreeNode node in nodes)
+            {
+                for (int i = 0; i < _count; i++)
+                {
+                    _result.Append(_tab);
+                }
+                _result.Append($"{node.Text}\n");
+                if (node.Nodes.Count > 0)
+                {
+                    _count++;
+
+                    ViewCollection(node.Nodes);
+
+                    _count--;
+                }
+            }
+        }
+
+        List<Car> _cars = new List<Car>();
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //_cars.Clear();
+
+            double offset = 0.5;
+            int carCount = 10;
+
+            for (int i = 0; i < carCount; i++, offset += 0.5)
+            {
+                _cars.Add(new Car
+                {
+                    Name = $"Car #{i + 1}",
+                    Speed = 100 + i * 3,
+                    Radio = new Radio { Station = 89.0 + offset }
+                });
+            }
+            BuildCarTreeView();
+        }
+
+        private void BuildCarTreeView()
+        {
+            treeViewCars.BeginUpdate();
+
+            foreach (Car car in _cars)
+            {
+                treeViewCars.Nodes.Add(new TreeNode(car.Name, 0, 0));
+
+                treeViewCars.Nodes[_cars.IndexOf(car)].Nodes.Add(
+                    new TreeNode($"Speed: {car.Speed}", 1, 1));
+
+                treeViewCars.Nodes[_cars.IndexOf(car)].Nodes.Add(
+                    new TreeNode($"Radio: {car.Radio.Station} FM", 2, 2));
+            }
+
+            treeViewCars.EndUpdate();
+        }
+
+        private void treeViewCars_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            StringBuilder info = new StringBuilder();
+
+            info.Append($"Current: {e.Node.Text}\n");
+
+            if (e.Node.Parent!=null)
+            {
+                info.Append($"Parent: {e.Node.Parent.Text}\n");
+            }
+
+            if (e.Node.NextNode!=null)
+            {
+                info.Append($"Next: {e.Node.NextNode.Text}");
+            }
+
+            //e.Node.BackColor = Color.BlueViolet;
+            lblInfo.Text = info.ToString();
+        }

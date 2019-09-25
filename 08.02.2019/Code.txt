@@ -1,0 +1,19 @@
+        private void trackBar_ValueChanged(object sender, EventArgs e)
+        {
+            lbNumber1.Text = trbNumber1.Value.ToString();
+            lbNumber2.Text = trbNumber2.Value.ToString();
+
+            if (cbSquare.Checked) // квадрат
+            {
+                trbNumber1.Value = ((TrackBar)sender).Value;
+                trbNumber2.Value = ((TrackBar)sender).Value;
+            }
+            lbResult.Text = (trbNumber1.Value * trbNumber2.Value).ToString();
+        }
+
+        private void cbSquare_CheckedChanged(object sender, EventArgs e)
+        {
+            grbResult.Text = cbSquare.Checked ? "Квадрат" : "Произведение";
+        }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

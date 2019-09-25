@@ -1,0 +1,739 @@
+DataGridView - класс
+
+Отображает данные в настраиваемой сетке.
+
+Конструкторы
+
+ DataGridView	Инициализирует новый экземпляр класса DataGridView.
+
+Методы
+
+ AccessibilityNotifyClients	Перегружен.
+ AccessibilityNotifyCurrentCellChanged	Уведомляет доступные клиентские приложения, когда новая ячейка становится текущей ячейкой.
+ AdjustColumnHeaderBorderStyle	Корректирует объект DataGridViewAdvancedBorderStyle для ячейки заголовка столбца объекта DataGridView, окрашиваемого в данный момент.
+ AreAllCellsSelected	Возвращает значение, указывающее, все ли ячейки DataGridView выбраны в данный момент.
+ AutoResizeColumn	Перегружен. Корректирует ширину указанного столбца по содержимому его ячеек.
+ AutoResizeColumnHeadersHeight	Перегружен. Корректирует высоту заголовков столбцов по содержимому заголовка.
+ AutoResizeColumns	Перегружен. Корректирует ширину всех столбцов по содержимому их ячеек.
+ AutoResizeRow	Перегружен. Корректирует высоту указанной строки по содержимому ее ячеек.
+ AutoResizeRowHeadersWidth	Перегружен. Корректирует ширину заголовков строк по содержимому заголовка.
+ AutoResizeRows	Перегружен. Корректирует высоту некоторых или всех строк по их содержимому.
+ BeginEdit	Переводит текущую ячейку в режим редактирования.
+ BeginInvoke	Перегружен.
+ BringToFront	Помещает элемент управления в начало z-порядка. (Унаследовано от Control.)
+ CancelEdit	Отменяет режим редактирования для текущей выбранной ячейки и удаляет все изменения.
+ ClearSelection	Перегружен. Отменяет выделение ячеек, выбранных в данный момент.
+ CommitEdit	Фиксирует изменения в текущей ячейке в кэш данных, не завершая режим редактирования.
+ Contains	Получает значение, показывающее, является ли указанный элемент управления дочерним элементом. (Унаследовано от Control.)
+ CreateAccessibilityInstance	Создает новый доступный объект для ячейки DataGridView. (Переопределяет Control.CreateAccessibilityInstance().)
+ CreateColumnsInstance	Создает и возвращает новый объект DataGridViewColumnCollection.
+ CreateControl	Вызывает принудительное создание элемента управления, включая создание дескриптора и любых дочерних элементов. (Унаследовано от Control.)
+ CreateControlsInstance	Создает и возвращает новый объект Control.ControlCollection, который может быть приведен к типу DataGridView.DataGridViewControlCollection. (Переопределяет Control.CreateControlsInstance().)
+ CreateGraphics	Задает объект Graphics для элемента управления. (Унаследовано от Control.)
+ CreateHandle	Создает дескриптор для элемента управления. (Унаследовано от Control.)
+ CreateObjRef	Создает объект, который содержит всю необходимую информацию для создания прокси-сервера, используемого для взаимодействия с удаленным объектом. (Унаследовано от MarshalByRefObject.)
+ CreateRowsInstance	Создает и возвращает новый объект DataGridViewRowCollection.
+ DefWndProc	Отправляет заданное сообщение процедуре окна, используемой по умолчанию. (Унаследовано от Control.)
+ DestroyHandle	Удаляет дескриптор, сопоставленный с элементом управления. (Унаследовано от Control.)
+ DisplayedColumnCount	Возвращает количество столбцов, отображаемых для пользователя.
+ DisplayedRowCount	Возвращает количество строк, отображаемых для пользователя.
+ Dispose	Перегружен. Освобождает все ресурсы, используемые элементом управления DataGridView.
+ DoDragDrop	Начинает операцию перетаскивания. (Унаследовано от Control.)
+ DrawToBitmap	Поддерживает отрисовку в указанном точечном рисунке. (Унаследовано от Control.)
+ EndEdit	Перегружен. Фиксирует и завершает операцию изменения в текущей ячейке.
+ EndInvoke	Получает возвращаемое значение асинхронной операции, представленное переданным объектом IAsyncResult. (Унаследовано от Control.)
+ Equals	Определяет, равен ли заданный объект Object текущему объекту Object. (Унаследовано от Object.)
+ Finalize	Освобождает неуправляемые ресурсы и выполняет другие операции очистки перед тем, как объект Component будет освобожден при сборке мусора. (Унаследовано от Component.)
+ FindForm	Получает форму, в которой находится элемент управления. (Унаследовано от Control.)
+ Focus	Задает фокус ввода элементу управления. (Унаследовано от Control.)
+ GetAccessibilityObjectById	Получает указанный объект AccessibleObject. (Переопределяет Control.GetAccessibilityObjectById(Int32).)
+ GetAutoSizeMode	Получает значение, указывающее, как будет вести себя элемент управления, когда его свойство AutoSize включено. (Унаследовано от Control.)
+ GetCellCount	Получает количество ячеек, удовлетворяющее фильтру поставщика.
+ GetCellDisplayRectangle	Возвращает прямоугольник, предоставляющий отображаемую область для ячейки.
+ GetChildAtPoint	Перегружен.
+ GetClipboardContent	Получает форматированные значения, представляющие содержимое ячеек, выбранных для копирования в объект Clipboard.
+ GetColumnDisplayRectangle	Возвращает прямоугольник, представляющий отображаемую область для столбца, определенную в соответствии с индексом столбца.
+ GetContainerControl	Возвращает следующий объект ContainerControl в цепочке родительских элементов управления данного элемента. (Унаследовано от Control.)
+ GetHashCode	Играет роль хэш-функции для определенного типа. (Унаследовано от Object.)
+ GetLifetimeService	Извлекает объект обслуживания во время существования, который управляет политикой времени существования данного экземпляра. (Унаследовано от MarshalByRefObject.)
+ GetNextControl	Извлекает следующий или предыдущий элемент управления в последовательности табуляции дочерних элементов управления. (Унаследовано от Control.)
+ GetPreferredSize	Извлекает размер прямоугольной области, в которую помещается элемент управления. (Унаследовано от Control.)
+ GetRowDisplayRectangle	Возвращает прямоугольник, представляющий отображаемую область для строки, определенную в соответствии с индексом строки.
+ GetScaledBounds	Получает границы, внутри которых масштабируется элемент управления. (Унаследовано от Control.)
+ GetService	Возвращает объект, представляющий службу, обеспечиваемую компонентом Component или его контейнером Container. (Унаследовано от Component.)
+ GetStyle	Получает значение указанного бита стиля элемента управления для данного элемента управления. (Унаследовано от Control.)
+ GetTopLevel	Определяет, является ли элемент управления элементом верхнего уровня. (Унаследовано от Control.)
+ GetType	Возвращает объект Type для текущего экземпляра. (Унаследовано от Object.)
+ Hide	Скрывает элемент управления от пользователя. (Унаследовано от Control.)
+ HitTest	Возвращает сведения о местоположении, например индексы строки и столбца, данные координат X и Y.
+ InitializeLifetimeService	Возвращает объект обслуживания во время существования для управления политикой времени существования данного экземпляра. (Унаследовано от MarshalByRefObject.)
+ InitLayout	Вызывается после добавления элемента управления в другой контейнер. (Унаследовано от Control.)
+ Invalidate	Перегружен.
+ InvalidateCell	Перегружен. Делает недействительной ячейку в объекте DataGridView, принудительно вызывая ее повторное окрашивание.
+ InvalidateColumn	Делаю недействительным указанный столбец объекта DataGridView, принудительно вызывая его повторное окрашивание.
+ InvalidateRow	Делает недействительной указанную строку объекта DataGridView, принудительно вызывая ее повторное окрашивание.
+ Invoke	Перегружен.
+ InvokeGotFocus	Вызывает событие GotFocus для указанного элемента управления. (Унаследовано от Control.)
+ InvokeLostFocus	Вызывает событие LostFocus для указанного элемента управления. (Унаследовано от Control.)
+ InvokeOnClick	Вызывает событие Click для указанного элемента управления. (Унаследовано от Control.)
+ InvokePaint	Вызывает событие Paint для указанного элемента управления. (Унаследовано от Control.)
+ InvokePaintBackground	Вызывает событие PaintBackground для указанного элемента управления. (Унаследовано от Control.)
+ IsInputChar	Определяет, является ли знак входным знаком, который распознается объектом DataGridView. (Переопределяет Control.IsInputChar(Char).)
+ IsInputKey	Определяет, является ли заданная клавиша стандартной клавишей ввода или специальной клавишей, требующей предварительной обработки. (Переопределяет Control.IsInputKey(Keys).)
+ MemberwiseClone	Перегружен.
+ NotifyCurrentCellDirty	Уведомляет объект DataGridView, что в текущей ячейке имеются незафиксированные изменения.
+ NotifyInvalidate	Инфраструктура. Вызывает событие Invalidated, чтобы сделать недействительной указанную область элемента управления. (Унаследовано от Control.)
+ OnAllowUserToAddRowsChanged	Вызывает событие AllowUserToAddRowsChanged.
+ OnAllowUserToDeleteRowsChanged	Вызывает событие AllowUserToDeleteRowsChanged.
+ OnAllowUserToOrderColumnsChanged	Вызывает событие AllowUserToOrderColumnsChanged.
+ OnAllowUserToResizeColumnsChanged	Вызывает событие AllowUserToResizeColumnsChanged.
+ OnAllowUserToResizeRowsChanged	Вызывает событие AllowUserToResizeRowsChanged.
+ OnAlternatingRowsDefaultCellStyleChanged	Вызывает событие AlternatingRowsDefaultCellStyleChanged.
+ OnAutoGenerateColumnsChanged	Вызывает событие AutoGenerateColumnsChanged.
+ OnAutoSizeChanged	Вызывает событие AutoSizeChanged. (Унаследовано от Control.)
+ OnAutoSizeColumnModeChanged	Вызывает событие AutoSizeColumnModeChanged.
+ OnAutoSizeColumnsModeChanged	Вызывает событие AutoSizeColumnsModeChanged.
+ OnAutoSizeRowsModeChanged	Вызывает событие AutoSizeRowsModeChanged.
+ OnBackColorChanged	Вызывает событие BackColorChanged. (Унаследовано от Control.)
+ OnBackgroundColorChanged	Вызывает событие BackgroundColorChanged.
+ OnBackgroundImageChanged	Вызывает событие BackgroundImageChanged. (Унаследовано от Control.)
+ OnBackgroundImageLayoutChanged	Вызывает событие BackgroundImageLayoutChanged. (Унаследовано от Control.)
+ OnBindingContextChanged	Вызывает событие BindingContextChanged. (Переопределяет Control.OnBindingContextChanged(EventArgs).)
+ OnBorderStyleChanged	Вызывает событие BorderStyleChanged.
+ OnCancelRowEdit	Вызывает событие CancelRowEdit.
+ OnCausesValidationChanged	Вызывает событие CausesValidationChanged. (Унаследовано от Control.)
+ OnCellBeginEdit	Вызывает событие CellBeginEdit.
+ OnCellBorderStyleChanged	Вызывает событие CellBorderStyleChanged.
+ OnCellClick	Вызывает событие CellClick.
+ OnCellContentClick	Вызывает событие CellContentClick.
+ OnCellContentDoubleClick	Вызывает событие CellContentDoubleClick.
+ OnCellContextMenuStripChanged	Вызывает событие CellContextMenuStripChanged.
+ OnCellContextMenuStripNeeded	Вызывает событие CellContextMenuStripNeeded.
+ OnCellDoubleClick	Вызывает событие CellDoubleClick.
+ OnCellEndEdit	Вызывает событие CellEndEdit.
+ OnCellEnter	Вызывает событие CellEnter.
+ OnCellErrorTextChanged	Вызывает событие CellErrorTextChanged.
+ OnCellErrorTextNeeded	Вызывает событие CellErrorTextNeeded.
+ OnCellFormatting	Вызывает событие CellFormatting.
+ OnCellLeave	Вызывает событие CellLeave.
+ OnCellMouseClick	Вызывает событие CellMouseClick.
+ OnCellMouseDoubleClick	Вызывает событие CellMouseDoubleClick.
+ OnCellMouseDown	Вызывает событие CellMouseDown.
+ OnCellMouseEnter	Вызывает событие CellMouseEnter.
+ OnCellMouseLeave	Вызывает событие CellMouseLeave.
+ OnCellMouseMove	Вызывает событие CellMouseMove.
+ OnCellMouseUp	Вызывает событие CellMouseUp.
+ OnCellPainting	Вызывает событие CellPainting.
+ OnCellParsing	Вызывает событие CellParsing.
+ OnCellStateChanged	Вызывает событие CellStateChanged.
+ OnCellStyleChanged	Вызывает событие CellStyleChanged.
+ OnCellStyleContentChanged	Вызывает событие CellStyleContentChanged.
+ OnCellToolTipTextChanged	Вызывает событие CellToolTipTextChanged.
+ OnCellToolTipTextNeeded	Вызывает событие CellToolTipTextNeeded.
+ OnCellValidated	Вызывает событие CellValidated.
+ OnCellValidating	Вызывает событие CellValidating.
+ OnCellValueChanged	Вызывает событие CellValueChanged.
+ OnCellValueNeeded	Вызывает событие CellValueNeeded.
+ OnCellValuePushed	Вызывает событие CellValuePushed.
+ OnChangeUICues	Вызывает событие ChangeUICues. (Унаследовано от Control.)
+ OnClick	Вызывает событие Click. (Унаследовано от Control.)
+ OnClientSizeChanged	Вызывает событие ClientSizeChanged. (Унаследовано от Control.)
+ OnColumnAdded	Вызывает событие ColumnAdded.
+ OnColumnContextMenuStripChanged	Вызывает событие ColumnContextMenuStripChanged.
+ OnColumnDataPropertyNameChanged	Вызывает событие ColumnDataPropertyNameChanged.
+ OnColumnDefaultCellStyleChanged	Вызывает событие ColumnDefaultCellStyleChanged.
+ OnColumnDisplayIndexChanged	Вызывает событие ColumnDisplayIndexChanged.
+ OnColumnDividerDoubleClick	Вызывает событие ColumnDividerDoubleClick.
+ OnColumnDividerWidthChanged	Вызывает событие ColumnDividerWidthChanged.
+ OnColumnHeaderCellChanged	Вызывает событие ColumnHeaderCellChanged.
+ OnColumnHeaderMouseClick	Вызывает событие ColumnHeaderMouseClick.
+ OnColumnHeaderMouseDoubleClick	Вызывает событие ColumnHeaderMouseDoubleClick.
+ OnColumnHeadersBorderStyleChanged	Вызывает событие ColumnHeadersBorderStyleChanged.
+ OnColumnHeadersDefaultCellStyleChanged	Вызывает событие ColumnHeadersDefaultCellStyleChanged.
+ OnColumnHeadersHeightChanged	Вызывает событие ColumnHeadersHeightChanged.
+ OnColumnHeadersHeightSizeModeChanged	Вызывает событие ColumnHeadersHeightSizeModeChanged.
+ OnColumnMinimumWidthChanged	Вызывает событие ColumnMinimumWidthChanged.
+ OnColumnNameChanged	Вызывает событие ColumnNameChanged.
+ OnColumnRemoved	Вызывает событие ColumnRemoved.
+ OnColumnSortModeChanged	Вызывает событие ColumnSortModeChanged.
+ OnColumnStateChanged	Вызывает событие ColumnStateChanged.
+ OnColumnToolTipTextChanged	Вызывает событие ColumnToolTipTextChanged.
+ OnColumnWidthChanged	Вызывает событие ColumnWidthChanged.
+ OnContextMenuChanged	Вызывает событие ContextMenuChanged. (Унаследовано от Control.)
+ OnContextMenuStripChanged	Вызывает событие ContextMenuStripChanged. (Унаследовано от Control.)
+ OnControlAdded	Вызывает событие ControlAdded. (Унаследовано от Control.)
+ OnControlRemoved	Вызывает событие ControlRemoved. (Унаследовано от Control.)
+ OnCreateControl	Вызывает метод CreateControl. (Унаследовано от Control.)
+ OnCurrentCellChanged	Вызывает событие CurrentCellChanged.
+ OnCurrentCellDirtyStateChanged	Вызывает событие CurrentCellDirtyStateChanged.
+ OnCursorChanged	Вызывает событие CursorChanged и обновляет свойство UserSetCursor, если курсор был изменен в коде пользователя. (Переопределяет Control.OnCursorChanged(EventArgs).)
+ OnDataBindingComplete	Вызывает событие DataBindingComplete.
+ OnDataError	Вызывает событие DataError.
+ OnDataMemberChanged	Вызывает событие DataMemberChanged.
+ OnDataSourceChanged	Вызывает событие DataSourceChanged.
+ OnDefaultCellStyleChanged	Вызывает событие DefaultCellStyleChanged.
+ OnDefaultValuesNeeded	Вызывает событие DefaultValuesNeeded.
+ OnDockChanged	Вызывает событие DockChanged. (Унаследовано от Control.)
+ OnDoubleClick	Вызывает событие DoubleClick. (Переопределяет Control.OnDoubleClick(EventArgs).)
+ OnDragDrop	Вызывает событие DragDrop. (Унаследовано от Control.)
+ OnDragEnter	Вызывает событие DragEnter. (Унаследовано от Control.)
+ OnDragLeave	Вызывает событие DragLeave. (Унаследовано от Control.)
+ OnDragOver	Вызывает событие DragOver. (Унаследовано от Control.)
+ OnEditingControlShowing	Вызывает событие EditingControlShowing.
+ OnEditModeChanged	Вызывает событие EditModeChanged.
+ OnEnabledChanged	Вызывает событие EnabledChanged. (Переопределяет Control.OnEnabledChanged(EventArgs).)
+ OnEnter	Вызывает событие Enter. (Переопределяет Control.OnEnter(EventArgs).)
+ OnFontChanged	Вызывает событие FontChanged. (Переопределяет Control.OnFontChanged(EventArgs).)
+ OnForeColorChanged	Вызывает событие ForeColorChanged. (Переопределяет Control.OnForeColorChanged(EventArgs).)
+ OnGiveFeedback	Вызывает событие GiveFeedback. (Унаследовано от Control.)
+ OnGotFocus	Вызывает событие GotFocus. (Переопределяет Control.OnGotFocus(EventArgs).)
+ OnGridColorChanged	Вызывает событие GridColorChanged.
+ OnHandleCreated	Вызывает событие HandleCreated. (Переопределяет Control.OnHandleCreated(EventArgs).)
+ OnHandleDestroyed	Вызывает событие HandleDestroyed. (Переопределяет Control.OnHandleDestroyed(EventArgs).)
+ OnHelpRequested	Вызывает событие HelpRequested. (Унаследовано от Control.)
+ OnImeModeChanged	Вызывает событие ImeModeChanged. (Унаследовано от Control.)
+ OnInvalidated	Вызывает событие Invalidated. (Унаследовано от Control.)
+ OnKeyDown	Вызывает событие KeyDown. (Переопределяет Control.OnKeyDown(KeyEventArgs).)
+ OnKeyPress	Вызывает событие KeyPress. (Переопределяет Control.OnKeyPress(KeyPressEventArgs).)
+ OnKeyUp	Вызывает событие KeyUp. (Переопределяет Control.OnKeyUp(KeyEventArgs).)
+ OnLayout	Вызывает событие Layout. (Переопределяет Control.OnLayout(LayoutEventArgs).)
+ OnLeave	Генерирует событие Leave. (Переопределяет Control.OnLeave(EventArgs).)
+ OnLocationChanged	Вызывает событие LocationChanged. (Унаследовано от Control.)
+ OnLostFocus	Вызывает событие LostFocus. (Переопределяет Control.OnLostFocus(EventArgs).)
+ OnMarginChanged	Вызывает событие MarginChanged. (Унаследовано от Control.)
+ OnMouseCaptureChanged	Вызывает событие MouseCaptureChanged. (Унаследовано от Control.)
+ OnMouseClick	Вызывает событие MouseClick. (Переопределяет Control.OnMouseClick(MouseEventArgs).)
+ OnMouseDoubleClick	Вызывает событие MouseDoubleClick. (Переопределяет Control.OnMouseDoubleClick(MouseEventArgs).)
+ OnMouseDown	Вызывает событие MouseDown. (Переопределяет Control.OnMouseDown(MouseEventArgs).)
+ OnMouseEnter	Вызывает событие MouseEnter. (Переопределяет Control.OnMouseEnter(EventArgs).)
+ OnMouseHover	Вызывает событие MouseHover. (Унаследовано от Control.)
+ OnMouseLeave	Вызывает событие MouseLeave. (Переопределяет Control.OnMouseLeave(EventArgs).)
+ OnMouseMove	Вызывает событие MouseMove. (Переопределяет Control.OnMouseMove(MouseEventArgs).)
+ OnMouseUp	Вызывает событие MouseUp. (Переопределяет Control.OnMouseUp(MouseEventArgs).)
+ OnMouseWheel	Вызывает событие MouseWheel. (Переопределяет Control.OnMouseWheel(MouseEventArgs).)
+ OnMove	Вызывает событие Move. (Унаследовано от Control.)
+ OnMultiSelectChanged	Вызывает событие MultiSelectChanged.
+ OnNewRowNeeded	Вызывает событие NewRowNeeded.
+ OnNotifyMessage	Уведомляет элемент управления о сообщениях Windows. (Унаследовано от Control.)
+ OnPaddingChanged	Вызывает событие PaddingChanged. (Унаследовано от Control.)
+ OnPaint	Генерирует событие Paint. (Переопределяет Control.OnPaint(PaintEventArgs).)
+ OnPaintBackground	Рисует фон элемента управления. (Унаследовано от Control.)
+ OnParentBackColorChanged	Вызывает событие BackColorChanged при изменении значения свойства BackColor контейнера элемента управления. (Унаследовано от Control.)
+ OnParentBackgroundImageChanged	Вызывает событие BackgroundImageChanged при изменении значения свойства BackgroundImage контейнера элемента управления. (Унаследовано от Control.)
+ OnParentBindingContextChanged	Вызывает событие BindingContextChanged при изменении значения свойства BindingContext контейнера элемента управления. (Унаследовано от Control.)
+ OnParentChanged	Вызывает событие ParentChanged. (Унаследовано от Control.)
+ OnParentCursorChanged	Вызывает событие CursorChanged. (Унаследовано от Control.)
+ OnParentEnabledChanged	Вызывает событие EnabledChanged при изменении значения свойства Enabled контейнера элемента управления. (Унаследовано от Control.)
+ OnParentFontChanged	Вызывает событие FontChanged при изменении значения свойства Font контейнера элемента управления. (Унаследовано от Control.)
+ OnParentForeColorChanged	Вызывает событие ForeColorChanged при изменении значения свойства ForeColor контейнера элемента управления. (Унаследовано от Control.)
+ OnParentRightToLeftChanged	Вызывает событие RightToLeftChanged при изменении значения свойства RightToLeft контейнера элемента управления. (Унаследовано от Control.)
+ OnParentVisibleChanged	Вызывает событие VisibleChanged при изменении значения свойства Visible контейнера элемента управления. (Унаследовано от Control.)
+ OnPreviewKeyDown	Вызывает событие PreviewKeyDown. (Унаследовано от Control.)
+ OnPrint	Генерирует событие Paint. (Унаследовано от Control.)
+ OnQueryContinueDrag	Вызывает событие QueryContinueDrag. (Унаследовано от Control.)
+ OnReadOnlyChanged	Вызывает событие ReadOnlyChanged.
+ OnRegionChanged	Вызывает событие RegionChanged. (Унаследовано от Control.)
+ OnResize	Вызывает событие Resize. (Переопределяет Control.OnResize(EventArgs).)
+ OnRightToLeftChanged	Вызывает событие RightToLeftChanged. (Переопределяет Control.OnRightToLeftChanged(EventArgs).)
+ OnRowContextMenuStripChanged	Вызывает событие RowContextMenuStripChanged.
+ OnRowContextMenuStripNeeded	Вызывает событие RowContextMenuStripNeeded.
+ OnRowDefaultCellStyleChanged	Вызывает событие RowDefaultCellStyleChanged.
+ OnRowDirtyStateNeeded	Вызывает событие RowDirtyStateNeeded.
+ OnRowDividerDoubleClick	Вызывает событие RowDividerDoubleClick.
+ OnRowDividerHeightChanged	Вызывает событие RowDividerHeightChanged.
+ OnRowEnter	Вызывает событие RowEnter.
+ OnRowErrorTextChanged	Вызывает событие RowErrorTextChanged.
+ OnRowErrorTextNeeded	Вызывает событие RowErrorTextNeeded.
+ OnRowHeaderCellChanged	Вызывает событие RowHeaderCellChanged.
+ OnRowHeaderMouseClick	Вызывает событие RowHeaderMouseClick.
+ OnRowHeaderMouseDoubleClick	Вызывает событие RowHeaderMouseDoubleClick.
+ OnRowHeadersBorderStyleChanged	Вызывает событие RowHeadersBorderStyleChanged.
+ OnRowHeadersDefaultCellStyleChanged	Вызывает событие RowHeadersDefaultCellStyleChanged.
+ OnRowHeadersWidthChanged	Вызывает событие RowHeadersWidthChanged.
+ OnRowHeadersWidthSizeModeChanged	Вызывает событие RowHeadersWidthSizeModeChanged.
+ OnRowHeightChanged	Вызывает событие RowHeightChanged.
+ OnRowHeightInfoNeeded	Вызывает событие RowHeightInfoNeeded.
+ OnRowHeightInfoPushed	Вызывает событие RowHeightInfoPushed.
+ OnRowLeave	Вызывает событие RowLeave.
+ OnRowMinimumHeightChanged	Вызывает событие RowMinimumHeightChanged.
+ OnRowPostPaint	Вызывает событие RowPostPaint.
+ OnRowPrePaint	Вызывает событие RowPrePaint.
+ OnRowsAdded	Вызывает событие RowsAdded.
+ OnRowsDefaultCellStyleChanged	Вызывает событие RowsDefaultCellStyleChanged.
+ OnRowsRemoved	Вызывает событие RowsRemoved.
+ OnRowStateChanged	Вызывает событие RowStateChanged.
+ OnRowUnshared	Вызывает событие RowUnshared.
+ OnRowValidated	Вызывает событие RowValidated.
+ OnRowValidating	Вызывает событие RowValidating.
+ OnScroll	Вызывает событие Scroll.
+ OnSelectionChanged	Вызывает событие SelectionChanged.
+ OnSizeChanged	Вызывает событие SizeChanged. (Унаследовано от Control.)
+ OnSortCompare	Вызывает событие SortCompare.
+ OnSorted	Вызывает событие Sorted.
+ OnStyleChanged	Вызывает событие StyleChanged. (Унаследовано от Control.)
+ OnSystemColorsChanged	Вызывает событие SystemColorsChanged. (Унаследовано от Control.)
+ OnTabIndexChanged	Вызывает событие TabIndexChanged. (Унаследовано от Control.)
+ OnTabStopChanged	Вызывает событие TabStopChanged. (Унаследовано от Control.)
+ OnTextChanged	Вызывает событие TextChanged. (Унаследовано от Control.)
+ OnUserAddedRow	Вызывает событие UserAddedRow.
+ OnUserDeletedRow	Вызывает событие UserDeletedRow.
+ OnUserDeletingRow	Вызывает событие UserDeletingRow.
+ OnValidated	Вызывает событие Validated. (Унаследовано от Control.)
+ OnValidating	Вызывает событие Validating. (Переопределяет Control.OnValidating(CancelEventArgs).)
+ OnVisibleChanged	Вызывает событие VisibleChanged. (Переопределяет Control.OnVisibleChanged(EventArgs).)
+ PaintBackground	Закрашивает фон объекта DataGridView.
+ PerformLayout	Перегружен.
+ PointToClient	Вычисляет местоположение указанной точки экрана в клиентских координатах. (Унаследовано от Control.)
+ PointToScreen	Вычисляет местоположение указанной точки клиента в экранных координатах. (Унаследовано от Control.)
+ PreProcessControlMessage	Выполняет предварительную обработку клавиатурных или входящих сообщений в цикле обработки сообщений перед их отправкой. (Унаследовано от Control.)
+ PreProcessMessage	Выполняет предварительную обработку клавиатурных или входящих сообщений в цикле обработки сообщений перед их отправкой. (Унаследовано от Control.)
+ ProcessAKey	Обрабатывает нажатие клавиши A.
+ ProcessCmdKey	Обрабатывает клавишу для команд. (Унаследовано от Control.)
+ ProcessDataGridViewKey	Обрабатывает клавиши, используемые для переходов в объекте DataGridView.
+ ProcessDeleteKey	Обрабатывает клавишу DELETE.
+ ProcessDialogChar	Обрабатывает символ диалогового окна. (Унаследовано от Control.)
+ ProcessDialogKey	Обрабатывает клавиши, такие как TAB, ESCAPE, ВВОД и КЛАВИШИ СО СТРЕЛКОЙ, используемые в диалоговых окнах элемента управления. (Переопределяет Control.ProcessDialogKey(Keys).)
+ ProcessDownKey	Обрабатывает клавишу СТРЕЛКА ВНИЗ.
+ ProcessEndKey	Обрабатывает клавишу END.
+ ProcessEnterKey	Обрабатывает клавишу ВВОД.
+ ProcessEscapeKey	Обрабатывает клавишу ESC.
+ ProcessF2Key	Обрабатывает клавишу F2.
+ ProcessHomeKey	Обрабатывает клавишу HOME.
+ ProcessInsertKey	Обрабатывает клавишу INSERT.
+ ProcessKeyEventArgs	Обрабатывает сообщение о нажатии клавиши и создает соответствующие события элемента управления. (Переопределяет Control.ProcessKeyEventArgs(Message).)
+ ProcessKeyMessage	Обрабатывает сообщение клавиатуры. (Унаследовано от Control.)
+ ProcessKeyPreview	Выполняет предварительный просмотр сообщения клавиатуры. (Переопределяет Control.ProcessKeyPreview(Message).)
+ ProcessLeftKey	Обрабатывает клавишу СТРЕЛКА ВЛЕВО.
+ ProcessMnemonic	Обрабатывает назначенный символ. (Унаследовано от Control.)
+ ProcessNextKey	Обрабатывает клавишу PAGE DOWN.
+ ProcessPriorKey	Обрабатывает клавишу PAGE UP.
+ ProcessRightKey	Обрабатывает клавишу СТРЕЛКА ВПРАВО.
+ ProcessSpaceKey	Обрабатывает клавишу ПРОБЕЛ.
+ ProcessTabKey	Обрабатывает нажатие клавиши TAB.
+ ProcessUpKey	Обрабатывает клавишу СТРЕЛКА ВВЕРХ.
+ ProcessZeroKey	Обрабатывает клавишу 0.
+ RaiseDragEvent	Вызывает соответствующее событие перетаскивания. (Унаследовано от Control.)
+ RaiseKeyEvent	Вызывает соответствующее событие клавиши. (Унаследовано от Control.)
+ RaiseMouseEvent	Вызывает соответствующее событие мыши. (Унаследовано от Control.)
+ RaisePaintEvent	Вызывает соответствующее событие окрашивания. (Унаследовано от Control.)
+ RecreateHandle	Вызывает повторное создание дескриптора элемента управления. (Унаследовано от Control.)
+ RectangleToClient	Вычисляет размер и местоположение указанной прямоугольной области экрана в клиентских координатах. (Унаследовано от Control.)
+ RectangleToScreen	Вычисляет размер и местоположение указанной клиентской области (в виде прямоугольника) в экранных координатах. (Унаследовано от Control.)
+ Refresh	Принудительно создает условия, при которых элемент управления делает недоступной свою клиентскую область и немедленно перерисовывает себя и все дочерние элементы. (Унаследовано от Control.)
+ RefreshEdit	Обновляет значение текущей ячейки, заменяя его значением базовой ячейки, когда ячейка находится в режиме редактирования, отменяя все предыдущие значения.
+ ResetBackColor	Сбрасывает свойство BackColor в значение по умолчанию. (Унаследовано от Control.)
+ ResetBindings	Вызывает в элементе управления, связанном с объектом BindingSource, повторное считывание всех элементов списка и обновление их отображаемых значений. (Унаследовано от Control.)
+ ResetCursor	Сбрасывает свойство Cursor в значение по умолчанию. (Унаследовано от Control.)
+ ResetFont	Сбрасывает свойство Font в значение по умолчанию. (Унаследовано от Control.)
+ ResetForeColor	Сбрасывает свойство ForeColor в значение по умолчанию. (Унаследовано от Control.)
+ ResetImeMode	Сбрасывает свойство ImeMode в значение по умолчанию. (Унаследовано от Control.)
+ ResetMouseEventArgs	Инфраструктура. Сбрасывает элемент управления в дескриптор события MouseLeave. (Унаследовано от Control.)
+ ResetRightToLeft	Сбрасывает свойство RightToLeft в значение по умолчанию. (Унаследовано от Control.)
+ ResetText	Инфраструктура. Восстанавливает значение по умолчанию свойства Text. (Переопределяет Control.ResetText().)
+ ResumeLayout	Перегружен.
+ RtlTranslateAlignment	Перегружен.
+ RtlTranslateContent	Преобразует указанный объект ContentAlignment в соответствующий объект ContentAlignment, чтобы обеспечить поддержку текста, читаемого справа налево. (Унаследовано от Control.)
+ RtlTranslateHorizontal	Преобразует указанный объект HorizontalAlignment в соответствующий объект HorizontalAlignment, чтобы обеспечить поддержку текста, читаемого справа налево. (Унаследовано от Control.)
+ RtlTranslateLeftRight	Преобразует указанный объект LeftRightAlignment в соответствующий объект LeftRightAlignment, чтобы обеспечить поддержку текста, читаемого справа налево. (Унаследовано от Control.)
+ Scale	Перегружен.
+ ScaleControl	Выполняет масштабирование местоположения, размеров, заполнения и полей элемента управления. (Унаследовано от Control.)
+ ScaleCore	Инфраструктура. Данный метод не относится к этому классу. (Унаследовано от Control.)
+ Select	Перегружен.
+ SelectAll	Выбирает все ячейки в объекте DataGridView.
+ SelectNextControl	Активирует следующий элемент управления. (Унаследовано от Control.)
+ SendToBack	Отправляет элемент управления в конец z-порядка. (Унаследовано от Control.)
+ SetAutoSizeMode	Задает значение, указывающее, как будет вести себя элемент управления, когда его свойство AutoSize включено. (Унаследовано от Control.)
+ SetBounds	Перегружен.
+ SetBoundsCore	Этот элемент переопределяет метод Control.SetBoundsCore. (Переопределяет Control.SetBoundsCore(Int32, Int32, Int32, Int32, BoundsSpecified).)
+ SetClientSizeCore	Задает размер клиентской области элемента управления. (Унаследовано от Control.)
+ SetCurrentCellAddressCore	Задает ячейку, которая является активной в данный момент.
+ SetSelectedCellCore	Изменяет состояние выбора ячейки с указанными индексами строки и столбца.
+ SetSelectedColumnCore	Изменяет состояние выбора столбца с указанным индексом.
+ SetSelectedRowCore	Изменяет состояние выбора строки с указанным индексом.
+ SetStyle	Задает указанный флаг ControlStyles либо значению true, либо значению false. (Унаследовано от Control.)
+ SetTopLevel	Задает элемент управления как элемент верхнего уровня. (Унаследовано от Control.)
+ SetVisibleCore	Задает элемент управления в указанном видимом состоянии. (Унаследовано от Control.)
+ Show	Отображает элемент управления для пользователя. (Унаследовано от Control.)
+ SizeFromClientSize	Определяет размер всего элемента управления по высоте и ширине его клиентской области. (Унаследовано от Control.)
+ Sort	Перегружен. Сортирует содержимое элемента управления DataGridView.
+ SuspendLayout	Временно приостанавливает логику макета для элемента управления. (Унаследовано от Control.)
+ ToString	Возвращает строку String, содержащую имя компонента Component, если таковое имеется. Этот метод не следует переопределять. (Унаследовано от Component.)
+ Update	Вызывает перерисовку элементом управления недопустимых областей клиентской области. (Унаследовано от Control.)
+ UpdateBounds	Перегружен.
+ UpdateCellErrorText	Принудительно вызывает обновление текста ошибки для ячейки, расположенной в указанном местоположении.
+ UpdateCellValue	Вызывает принудительное обновление элементом управления отображения ячейки в указанном местоположении на основе ее нового значения, применяя какие-либо режимы автоматической установки размеров, которые являются активными в данный момент.
+ UpdateRowErrorText	Перегружен. Вызывает принудительное обновление текста ошибок для одной или нескольких строк.
+ UpdateRowHeightInfo	Вызывает принудительное обновление сведений о высоте указанной строки или строк.
+ UpdateStyles	Вызывает принудительное повторное применение назначенных стилей к элементу управления. (Унаследовано от Control.)
+ UpdateZOrder	Обновляет элемент управления в z-порядке его родительского элемента управления. (Унаследовано от Control.)
+ WndProc	Обрабатывает сообщения окна. (Переопределяет Control.WndProc(Message).)
+
+Свойства
+
+ AccessibilityObject	Получает объекты AccessibleObject, назначенные элементу управления. (Унаследовано от Control.)
+ AccessibleDefaultActionDescription	Возвращает или задает описание выполняемого по умолчанию действия элемента управления для использования клиентскими приложениями со специальными возможностями. (Унаследовано от Control.)
+ AccessibleDescription	Возвращает или задает описание элемента управления, используемого клиентскими приложениями со специальными возможностями. (Унаследовано от Control.)
+ AccessibleName	Возвращает или задает имя элемента управления, используемого клиентскими приложениями со специальными возможностями. (Унаследовано от Control.)
+ AccessibleRole	Возвращает или задает роль элемента управления в поддержке специальных возможностей. (Унаследовано от Control.)
+ AdjustedTopLeftHeaderBorderStyle	Получает стиль границы для левой верхней ячейки в объекте DataGridView.
+ AdvancedCellBorderStyle	Получает стиль границы ячейки в объекте DataGridView.
+ AdvancedColumnHeadersBorderStyle	Получает стиль ячеек заголовков столбцов в объекте DataGridView.
+ AdvancedRowHeadersBorderStyle	Получает стиль границы ячеек заголовков строк в объекте DataGridView.
+ AllowDrop	Возвращает или задает значение, указывающее, может ли элемент управления принимать данные, перетаскиваемые в него пользователем. (Унаследовано от Control.)
+ AllowUserToAddRows	Возвращает или задает значение, указывающее, отображается ли для пользователя параметр добавления строк.
+ AllowUserToDeleteRows	Возвращает или задает значение, указывающее, разрешено ли пользователю удалять строки из объекта DataGridView.
+ AllowUserToOrderColumns	Возвращает или задает значение, указывающее, включена ли возможность изменения положения столбца вручную.
+ AllowUserToResizeColumns	Возвращает или задает значение, указывающее, может ли пользователь изменять размер столбцов.
+ AllowUserToResizeRows	Возвращает или задает значение, указывающее, может ли пользователь изменять размер строк.
+ AlternatingRowsDefaultCellStyle	Возвращает или задает стиль ячейки по умолчанию, применяемый к нечетным строкам объекта DataGridView.
+ Anchor	Возвращает или задает границы контейнера, с которым связан элемент управления, и определяет способ изменения размеров элемента управления при изменении размеров его родительского элемента. (Унаследовано от Control.)
+ AutoGenerateColumns	Возвращает или задает значение, указывающее, создаются ли автоматически столбцы при задании свойств DataSource или DataMember.
+ AutoScrollOffset	Возвращает или задает местоположение, в котором выполняется прокрутка этого элемента управления в ScrollControlIntoView. (Унаследовано от Control.)
+ AutoSize	Данное свойство не относится к этому классу. (Переопределяет Control.AutoSize.)
+ AutoSizeColumnsMode	Возвращает или задает значение, указывающее, как определяется ширина столбца.
+ AutoSizeRowsMode	Возвращает или задает значение, указывающее, как определяется высота строки.
+ BackColor	Инфраструктура. Возвращает или задает цвет фона для элемента управления. (Переопределяет Control.BackColor.)
+ BackgroundColor	Возвращает или задает цвет фона для объекта DataGridView.
+ BackgroundImage	Инфраструктура. Возвращает или задает фоновое изображение, выводимое на элементе управления. (Переопределяет Control.BackgroundImage.)
+ BackgroundImageLayout	Инфраструктура. Возвращает или задает макет фонового изображения в соответствии с его определением в перечислении ImageLayout. (Переопределяет Control.BackgroundImageLayout.)
+ BindingContext	Возвращает или задает объект BindingContext для элемента управления. (Унаследовано от Control.)
+ BorderStyle	Возвращает или задает стиль границы для объекта DataGridView.
+ Bottom	Получает расстояние (в точках) между нижней границей элемента управления и верхней границей клиентской области контейнера. (Унаследовано от Control.)
+ Bounds	Возвращает или задает размер и местоположение (в точках) элемента управления, включая его неклиентские элементы, относительно его родительского элемента управления. (Унаследовано от Control.)
+ CanEnableIme	Получает значение, показывающее, можно ли для свойства ImeMode установить активное значение с целью включения поддержки редактора метода ввода. (Переопределяет Control.CanEnableIme.)
+ CanFocus	Получает значение, показывающее, может ли элемент управления получать фокус. (Унаследовано от Control.)
+ CanRaiseEvents	Определяет, могут ли вызываться события в элементе управления. (Унаследовано от Control.)
+ CanSelect	Получает значение, показывающее, доступен ли элемент управления для выбора. (Унаследовано от Control.)
+ Capture	Возвращает или задает значение, определяющее, была ли мышь захвачена элементом управления. (Унаследовано от Control.)
+ CausesValidation	Возвращает или задает значение, показывающее, вызывает ли элемент управления выполнение проверки. (Унаследовано от Control.)
+ CellBorderStyle	Получает стиль границы ячейки для объекта DataGridView.
+ ClientRectangle	Получает прямоугольник, представляющий клиентскую область элемента управления. (Унаследовано от Control.)
+ ClientSize	Возвращает или задает высоту и ширину клиентской области элемента управления. (Унаследовано от Control.)
+ ClipboardCopyMode	Возвращает или задает значение, указывающее, могут ли пользователи копировать текстовые значения ячеек в объект Clipboard, а также включается ли в копирование текст заголовка строки и столбца.
+ ColumnCount	Возвращает или задает число столбцов, отображаемых в объекте DataGridView.
+ ColumnHeadersBorderStyle	Получает стиль границы, применяемый к заголовкам столбцов.
+ ColumnHeadersDefaultCellStyle	Возвращает или задает стиль заголовка столбца по умолчанию.
+ ColumnHeadersHeight	Возвращает или задает высоту (в точках) строки заголовков столбцов
+ ColumnHeadersHeightSizeMode	Возвращает или задает значение, указывающее, может ли корректироваться высота заголовков столбцов, а также может ли она корректироваться пользователем или же автоматически по содержимому заголовков.
+ ColumnHeadersVisible	Возвращает или задает значение, указывающее, отображается ли строка заголовков столбцов.
+ Columns	Получает коллекцию, содержащую все столбцы в элементе управления.
+ CompanyName	Получает название организации или имя создателя приложения, содержащего элемент управления. (Унаследовано от Control.)
+ Container	Возвращает контейнер IContainer, содержащий компонент Component. (Унаследовано от Component.)
+ ContainsFocus	Получает значение, указывающее, имеет ли элемент управления или один из его дочерних элементов фокус ввода в данный момент. (Унаследовано от Control.)
+ ContextMenu	Возвращает или задает контекстное меню, сопоставленное с элементом управления. (Унаследовано от Control.)
+ ContextMenuStrip	Возвращает или задает объект ContextMenuStrip, сопоставленный с этим элементом управления. (Унаследовано от Control.)
+ Controls	Получает коллекцию элементов управления, содержащихся в элементе управления. (Унаследовано от Control.)
+ Created	Получает значение, показывающее, был ли создан элемент управления. (Унаследовано от Control.)
+ CreateParams	Получает необходимые параметры процедуры создания при создании дескриптора элемента управления. (Унаследовано от Control.)
+ CurrentCell	Возвращает или задает ячейку, которая является активной в данный момент.
+ CurrentCellAddress	Получает индексы строки и столбца ячейки, которая является активной в данный момент.
+ CurrentRow	Получает строку, содержащую текущую ячейку.
+ Cursor	Возвращает или задает курсор, отображаемый, когда указатель мыши находится на элементе управления. (Унаследовано от Control.)
+ DataBindings	Получает привязки данных для этого элемента управления. (Унаследовано от Control.)
+ DataMember	Возвращает или задает имя списка или таблицы в источнике данных, для которого объект DataGridView является отображением данных.
+ DataSource	Возвращает или задает источник данных, для которого объект DataGridView отображает данные.
+ DefaultCellStyle	Возвращает или задает стиль ячейки по умолчанию, который будет применяться к ячейкам в объекте DataGridView, если не заданы какие-либо другие свойства стиля ячейки.
+ DefaultCursor	Возвращает или задает курсор по умолчанию для элемента управления. (Унаследовано от Control.)
+ DefaultImeMode	Получает стандартный режим редактора метода ввода, поддерживаемый данным элементом управления. (Унаследовано от Control.)
+ DefaultMargin	Получает размер пустого пространства (в точках), по умолчанию оставляемого между элементами управления. (Унаследовано от Control.)
+ DefaultMaximumSize	Получает длину и высоту (в точках), которые были указаны в качестве максимального размера элемента управления. (Унаследовано от Control.)
+ DefaultMinimumSize	Получает длину и высоту (в точках), которые были указаны в качестве минимального размера элемента управления. (Унаследовано от Control.)
+ DefaultPadding	Получает внутренние промежутки в содержимом элемента управления в точках. (Унаследовано от Control.)
+ DefaultSize	Получает исходный размер по умолчанию элемента управления. (Переопределяет Control.DefaultSize.)
+ DesignMode	Возвращает значение, указывающее, находится ли данный компонент Component в режиме конструктора в настоящее время. (Унаследовано от Component.)
+ DisplayRectangle	Получает прямоугольник, представляющий отображаемую область элемента управления. (Переопределяет Control.DisplayRectangle.)
+ Disposing	Получает значение, указывающее, находится ли базовый класс Control в процессе удаления. (Унаследовано от Control.)
+ Dock	Возвращает или задает границы элемента управления, прикрепленные к его родительскому элементу управления, и определяет способ изменения размеров элемента управления с его родительским элементом управления. (Унаследовано от Control.)
+ DoubleBuffered	Возвращает или задает значение, указывающее, должна ли поверхность этого элемента управления перерисовываться с помощью дополнительного буфера, чтобы уменьшить или предотвратить мерцание. (Унаследовано от Control.)
+ EditingControl	Получает элемент управления, размещенный текущей ячейкой, если ячейка с элементом управления изменениями находится в режим редактирования.
+ EditingPanel	Получает панель, содержащую EditingControl.
+ EditMode	Возвращает или задает значение, указывающее, как можно начать изменение ячейки.
+ Enabled	Возвращает или задает значение, показывающее, сможет ли элемент управления отвечать на действия пользователя. (Унаследовано от Control.)
+ EnableHeadersVisualStyles	Возвращает или задает значение, указывающее, используются ли в заголовках строк и столбцов визуальные стили текущей темы пользователя, если визуальные стили для приложения включены.
+ Events	Возвращает список обработчиков событий, которые прикреплены к этому объекту Component. (Унаследовано от Component.)
+ FirstDisplayedCell	Возвращает или задает первую ячейку, отображаемую в данный момент в объекте DataGridView; обычно эта ячейка находится в левом верхнем углу.
+ FirstDisplayedScrollingColumnHiddenWidth	Получает ширину части столбца, которая в данный момент не видна в результате выполнения прокрутки.
+ FirstDisplayedScrollingColumnIndex	Возвращает или задает индекс столбца, который является первым столбцом, отображаемым в объекте DataGridView.
+ FirstDisplayedScrollingRowIndex	Возвращает или задает индекс строки, который является первой строкой, отображаемой в объекте DataGridView.
+ Focused	Получает значение, показывающее, имеется ли в элементе управления фокус ввода. (Унаследовано от Control.)
+ Font	Возвращает или задает шрифт текста, отображаемого объектом DataGridView. (Переопределяет Control.Font.)
+ FontHeight	Возвращает или задает высоту шрифта элемента управления. (Унаследовано от Control.)
+ ForeColor	Возвращает или задает основной цвет для объекта DataGridView. (Переопределяет Control.ForeColor.)
+ GridColor	Возвращает или задает цвет линий сетки, разделяющих ячейки объекта DataGridView.
+ Handle	Получает дескриптор окна, с которым связан элемент управления. (Унаследовано от Control.)
+ HasChildren	Получает значение, определяющее, содержит ли элемент управления один или несколько дочерних элементов. (Унаследовано от Control.)
+ Height	Возвращает или задает высоту элемента управления. (Унаследовано от Control.)
+ HorizontalScrollBar	Получает полосу горизонтальной прокрутки элемента управления.
+ HorizontalScrollingOffset	Возвращает или задает количество точек, на которое элемент управления может прокручиваться по горизонтали.
+ ImeMode	Возвращает или задает режим редактора метода ввода элемента управления. (Унаследовано от Control.)
+ ImeModeBase	(Унаследовано от Control.)
+ InvokeRequired	Получает значение, показывающее, следует ли вызывающему оператору обращаться к методу invoke во время вызовов метода из элемента управления, так как вызывающий оператор находится не в том потоке, в котором был создан элемент управления. (Унаследовано от Control.)
+ IsAccessible	Возвращает или задает значение, показывающее, является ли элемент управления видимым для приложений со специальными возможностями. (Унаследовано от Control.)
+ IsCurrentCellDirty	Получает значение, указывающее, имеются ли в текущей ячейке незафиксированные изменения.
+ IsCurrentCellInEditMode	Получает значение, показывающее, выполняется ли изменение ячейки, которая является активной в данный момент.
+ IsCurrentRowDirty	Получает значение, указывающее, имеются ли в текущей строке незафиксированные изменения.
+ IsDisposed	Получает значение, показывающее, был ли удален элемент управления. (Унаследовано от Control.)
+ IsHandleCreated	Получает значение, показывающее, имеется ли у элемента управления сопоставленный с ним дескриптор. (Унаследовано от Control.)
+ IsMirrored	Получает значение, показывающее, отображается ли зеркально элемент управления. (Унаследовано от Control.)
+ Item	Перегружен. Предоставляет индексатор для получения или задания ячейки, расположенной на пересечении указанных строки и столбца.
+ LayoutEngine	Получает кэшированный экземпляр обработчика макета элемента управления. (Унаследовано от Control.)
+ Left	Возвращает или задает расстояние (в точках) между левой границей элемента управления и левой границей клиентской области его контейнера. (Унаследовано от Control.)
+ Location	Возвращает или задает координаты левого верхнего угла элемента управления относительно левого верхнего угла контейнера. (Унаследовано от Control.)
+ Margin	Возвращает или задает пустое пространство между элементами управления. (Унаследовано от Control.)
+ MaximumSize	Возвращает или задает размер, являющийся верхней границей, которую может указать метод GetPreferredSize. (Унаследовано от Control.)
+ MinimumSize	Возвращает или задает размер, являющийся нижней границей, которую может указать метод GetPreferredSize. (Унаследовано от Control.)
+ MultiSelect	Возвращает или задает значение, указывающее, разрешено ли пользователю выбирать одновременно более одной ячейки, строки или столбца объекта DataGridView.
+ Name	Возвращает или задает имя элемента управления. (Унаследовано от Control.)
+ NewRowIndex	Получает индекс строки для новых записей.
+ Padding	Инфраструктура. Данное свойство не относится к этому элементу управления.
+ Parent	Возвращает или задает родительский контейнер элемента управления. (Унаследовано от Control.)
+ PreferredSize	Получает размер прямоугольной области, в которую может поместиться элемент управления. (Унаследовано от Control.)
+ ProductName	Получает имя продукта сборки, содержащей элемент управления. (Унаследовано от Control.)
+ ProductVersion	Получает версию сборки, содержащую элемент управления. (Унаследовано от Control.)
+ ReadOnly	Возвращает или задает значение, указывающее, может ли пользователь изменять ячейки элемента управления DataGridView.
+ RecreatingHandle	Получает значение, показывающее, осуществляется ли в данный момент повторное создание дескриптора элементом управления. (Унаследовано от Control.)
+ Region	Возвращает или задает область окна, сопоставленную с элементом управления. (Унаследовано от Control.)
+ RenderRightToLeft	Устаревшее. Это свойство устарело. (Унаследовано от Control.)
+ ResizeRedraw	Возвращает или задает значение, указывающее, перерисовывается ли элемент управления при изменении размеров. (Унаследовано от Control.)
+ Right	Получает расстояние (в точках) между правой границей элемента управления и левой границей клиентской области его контейнера. (Унаследовано от Control.)
+ RightToLeft	Возвращает или задает значение, показывающее, выровнены ли компоненты элемента управления для поддержки языков, использующих шрифты с написанием справа налево. (Унаследовано от Control.)
+ RowCount	Возвращает или задает число строк, отображаемых в объекте DataGridView.
+ RowHeadersBorderStyle	Возвращает или задает стиль границы ячеек заголовков строк.
+ RowHeadersDefaultCellStyle	Возвращает или задает стиль по умолчанию, применяемый к ячейкам заголовков строк.
+ RowHeadersVisible	Возвращает или задает значение, указывающее, отображается ли столбец, содержащий заголовки строк.
+ RowHeadersWidth	Возвращает или задает ширину (в точках) столбца, содержащего заголовки строк
+ RowHeadersWidthSizeMode	Возвращает или задает значение, указывающее, может ли корректироваться ширина заголовков строк, а также может ли она корректироваться пользователем или же автоматически по содержимому заголовков.
+ Rows	Получает коллекцию, содержащую все строки в элементе управления DataGridView.
+ RowsDefaultCellStyle	Возвращает или задает стиль по умолчанию, применяемый к ячейкам строк DataGridView.
+ RowTemplate	Возвращает или задает строку, представляющую шаблон для всех строк в элементе управления.
+ ScaleChildren	Получает значение, определяющее масштабирование дочерних элементов управления. (Унаследовано от Control.)
+ ScrollBars	Возвращает или задает тип полос прокрутки, отображающихся для элемента управления DataGridView.
+ SelectedCells	Получает коллекцию ячеек, выбранных пользователем.
+ SelectedColumns	Получает коллекцию столбцов, выбранных пользователем.
+ SelectedRows	Получает коллекцию строк, выбранных пользователем.
+ SelectionMode	Возвращает или задает значение, указывающее, каким образом могут быть выбраны ячейки объекта DataGridView.
+ ShowCellErrors	Возвращает или задает значение, указывающее, нужно ли показывать ошибки строк.
+ ShowCellToolTips	Возвращает или задает значение, указывающее, будет ли отображаться всплывающая подсказка, когда на ячейку наводится указатель мыши.
+ ShowEditingIcon	Возвращает или задает значение, указывающее, будет ли видим глиф изменения в заголовке строки изменяемой ячейки.
+ ShowFocusCues	Получает значение, показывающее, должен ли элемент управления отображать прямоугольники фокуса. (Унаследовано от Control.)
+ ShowKeyboardCues	Получает значение, указывающее, имеет ли пользовательский интерфейс соответствующее состояние, при котором отображаются или скрываются сочетания клавиш. (Унаследовано от Control.)
+ ShowRowErrors	Возвращает или задает значение, указывающее, будет ли отображаться глиф ошибки в заголовках строк для каждой строки, содержащей ошибку ввода данных.
+ Site	Возвращает или задает подложку элемента управления. (Унаследовано от Control.)
+ Size	Возвращает или задает высоту и ширину элемента управления. (Унаследовано от Control.)
+ SortedColumn	Получает столбец, по которому сейчас выполнена сортировка содержимого объекта DataGridView.
+ SortOrder	Получает значение, указывающее порядок сортировки в объекте DataGridView (по возрастанию, по убыванию, отсутствие сортировки).
+ StandardTab	Возвращает или задает значение, указывающее, перемещается ли фокус клавишей TAB в последовательности табуляции к следующему элементу управления или же к следующей ячейке в элементе управления.
+ TabIndex	Возвращает или задает последовательность перехода элемента управления внутри контейнера. (Унаследовано от Control.)
+ TabStop	Возвращает или задает значение, показывающее, может ли пользователь перевести фокус в данный элемент управления при помощи клавиши TAB. (Унаследовано от Control.)
+ Tag	Возвращает или задает объект, содержащий данные элемента управления. (Унаследовано от Control.)
+ Text	Инфраструктура. Возвращает или задает текст, сопоставленный с этим элементом управления. (Переопределяет Control.Text.)
+ Top	Возвращает или задает расстояние (в точках) между верхней границей элемента управления и верхней границей клиентской области его контейнера. (Унаследовано от Control.)
+ TopLeftHeaderCell	Возвращает или задает ячейку заголовка, расположенную в левом верхнем углу элемента управления DataGridView.
+ TopLevelControl	Получает родительский элемент управления, не имеющий другого родительского элемента управления Windows Forms. Как правило, им является внешний объект Form, в котором содержится элемент управления. (Унаследовано от Control.)
+ UserSetCursor	Получает значение по умолчанию или указанное пользователем для свойства Cursor.
+ UseWaitCursor	Возвращает или задает значение, указывающее, следует ли использовать курсор ожидания для текущего элемента управления и всех дочерних элементов управления. (Унаследовано от Control.)
+ VerticalScrollBar	Получает полосу вертикальной прокрутки элемента управления.
+ VerticalScrollingOffset	Получает количество точек, на которое элемент управления может прокручиваться по вертикали.
+ VirtualMode	Возвращает или задает значение, указывающее, предоставляются ли определенные пользователем операции управления данными для элемента управления DataGridView.
+ Visible	Возвращает или задает значение, указывающее отображаются ли элемент управления и все его родительские элементы управления. (Унаследовано от Control.)
+ Width	Возвращает или задает ширину элемента управления. (Унаследовано от Control.)
+ WindowTarget	Инфраструктура. Данное свойство не применимо к этому классу. (Унаследовано от Control.)
+
+События
+
+ AllowUserToAddRowsChanged	Происходит, когда значение свойства AllowUserToAddRows изменяется.
+ AllowUserToDeleteRowsChanged	Происходит, когда значение свойства AllowUserToDeleteRowsChanged изменяется.
+ AllowUserToOrderColumnsChanged	Происходит, когда значение свойства AllowUserToOrderColumns изменяется.
+ AllowUserToResizeColumnsChanged	Происходит при изменении значения свойства AllowUserToResizeColumns.
+ AllowUserToResizeRowsChanged	Происходит при изменении значения свойства AllowUserToResizeRows.
+ AlternatingRowsDefaultCellStyleChanged	Происходит, когда значение свойства AlternatingRowsDefaultCellStyle изменяется.
+ AutoGenerateColumnsChanged	Происходит при изменении значении свойства AutoGenerateColumnsChanged.
+ AutoSizeChanged	Инфраструктура. Данное событие не относится к этому классу. (Унаследовано от Control.)
+ AutoSizeColumnModeChanged	Происходит при изменении значения свойства AutoSizeMode столбца.
+ AutoSizeColumnsModeChanged	Происходит при изменении значения свойства AutoSizeColumnsMode.
+ AutoSizeRowsModeChanged	Происходит при изменении значения свойства DataGridViewAutoSizeRowsMode.
+ BackColorChanged	Инфраструктура. Происходит при изменении значении свойства BackColor.
+ BackgroundColorChanged	Происходит при изменении значении свойства BackgroundColor.
+ BackgroundImageChanged	Инфраструктура. Происходит при изменении значения свойства BackgroundImage.
+ BackgroundImageLayoutChanged	Инфраструктура. Происходит при изменении свойства BackgroundImageLayout.
+ BindingContextChanged	Происходит при изменении значения свойства BindingContext. (Унаследовано от Control.)
+ BorderStyleChanged	Происходит при изменении значении свойства BorderStyle.
+ CancelRowEdit	Происходит, когда значением свойства VirtualMode элемента управления DataGridView является true, и отменяет изменения в строке.
+ CausesValidationChanged	Происходит при изменении значения свойства CausesValidation. (Унаследовано от Control.)
+ CellBeginEdit	Происходит, когда открывается режим редактирования для выбранной ячейки.
+ CellBorderStyleChanged	Происходит при изменении стиля границы ячейки.
+ CellClick	Происходит при щелчке по любой части ячейки.
+ CellContentClick	Происходит, когда был выполнен щелчок содержимого в ячейке.
+ CellContentDoubleClick	Происходит, когда пользователь дважды щелкает содержимое ячейки.
+ CellContextMenuStripChanged	Происходит при изменении свойства ContextMenuStrip.
+ CellContextMenuStripNeeded	Происходит, когда требуется контекстное меню ячейки.
+ CellDoubleClick	Происходит, когда пользователь дважды щелкает в каком-либо месте ячейки.
+ CellEndEdit	Происходит, когда останавливается режим редактирования для текущей выбранной ячейки.
+ CellEnter	Происходит, когда текущая ячейка изменяется в элементе управления DataGridView или когда этот элемент управления получает фокус ввода.
+ CellErrorTextChanged	Происходит, при изменении значения свойства ячейки ErrorText.
+ CellErrorTextNeeded	Происходит, когда требуется текст ошибки.
+ CellFormatting	Происходит, когда содержимое ячейки требуется отформатировать для отображения.
+ CellLeave	Происходит, когда фокус ввода перемещается из ячейки и она больше не является текущей ячейкой.
+ CellMouseClick	Происходит всякий раз, когда пользователь щелкает мышью в каком-либо месте ячейки.
+ CellMouseDoubleClick	Происходит, когда ячейка внутри объекта DataGridView была дважды щелкнута.
+ CellMouseDown	Происходит, если пользователь нажимает кнопку мыши, когда ее указатель находится внутри границ ячейки.
+ CellMouseEnter	Происходит, когда указатель мыши вводится в ячейку.
+ CellMouseLeave	Происходит, когда указатель мыши покидает ячейку.
+ CellMouseMove	Происходит, когда указатель мыши перемещается по элементу управления DataGridView.
+ CellMouseUp	Происходит, когда пользователь отпускает кнопку мыши, наводя указатель мыши на ячейку.
+ CellPainting	Происходит, когда требуется прорисовать ячейку.
+ CellParsing	Происходит, когда ячейка выходит из режима редактирования, если значение ячейки было изменено.
+ CellStateChanged	Происходит, когда состояние ячейки изменяется, например при перемещении фокуса в ячейку или из нее.
+ CellStyleChanged	Происходит при изменении свойства Style объекта DataGridViewCell.
+ CellStyleContentChanged	Происходит при изменении одного из значений стиля ячейки.
+ CellToolTipTextChanged	Происходит, когда значение свойство ToolTipText изменяется для ячейки в объекте DataGridView.
+ CellToolTipTextNeeded	Происходит, когда требуется текст всплывающей подсказки.
+ CellValidated	Происходит после завершения проверки ячейки.
+ CellValidating	Происходит, когда фокус ввода перемещается из ячейки, включая проверку содержимого.
+ CellValueChanged	Происходит при изменении значения ячейки.
+ CellValueNeeded	Происходит, когда свойство VirtualMode элемента управления DataGridView имеет значение true и объекту DataGridView требуется значение для ячейки, необходимое для форматирования и отображения этой ячейки.
+ CellValuePushed	Происходит, когда свойство VirtualMode элемента управления DataGridView имеет значение true, а также значение ячейки изменилось и для него требуется хранилище в источнике базовых данных.
+ ChangeUICues	Происходит при изменении фокуса или клавиатурных подсказок пользовательского интерфейса. (Унаследовано от Control.)
+ Click	Происходит при щелчке элемента управления. (Унаследовано от Control.)
+ ClientSizeChanged	Происходит при изменении значения свойства ClientSize. (Унаследовано от Control.)
+ ColumnAdded	Происходит при добавлении столбца в элемент управления.
+ ColumnContextMenuStripChanged	Происходит при изменении свойства столбца ContextMenuStrip.
+ ColumnDataPropertyNameChanged	Происходит при изменении значения свойства DataPropertyName для столбца.
+ ColumnDefaultCellStyleChanged	Происходит при изменении значения свойства DefaultCellStyle для столбца.
+ ColumnDisplayIndexChanged	Происходит при изменении значения свойства DisplayIndex для столбца.
+ ColumnDividerDoubleClick	Происходит, когда пользователь дважды щелкает разделитель между двумя столбцами.
+ ColumnDividerWidthChanged	Происходит при изменении свойства DividerWidth.
+ ColumnHeaderCellChanged	Происходит, когда содержимое ячейки заголовка столбца изменяется.
+ ColumnHeaderMouseClick	Происходит, когда пользователь щелкает заголовок столбца.
+ ColumnHeaderMouseDoubleClick	Происходит, когда заголовок столбца был дважды щелкнут.
+ ColumnHeadersBorderStyleChanged	Происходит при изменении свойства ColumnHeadersBorderStyle.
+ ColumnHeadersDefaultCellStyleChanged	Происходит при изменении значения свойства ColumnHeadersDefaultCellStyle.
+ ColumnHeadersHeightChanged	Происходит при изменении значения свойства ColumnHeadersHeight.
+ ColumnHeadersHeightSizeModeChanged	Происходит при изменении значения свойства ColumnHeadersHeightSizeMode.
+ ColumnMinimumWidthChanged	Происходит при изменении значения свойства MinimumWidth для столбца.
+ ColumnNameChanged	Происходит при изменении значения свойства Name для столбца.
+ ColumnRemoved	Происходит при удалении столбца из элемента управления.
+ ColumnSortModeChanged	Происходит при изменении значения свойства SortMode для столбца.
+ ColumnStateChanged	Происходит при изменении состояния столбца, например при перемещении фокуса в этот столбец или из него.
+ ColumnToolTipTextChanged	Происходит, когда значение свойство ToolTipText изменяется для столбца в объекте DataGridView.
+ ColumnWidthChanged	Происходит при изменении значения свойства Width для столбца.
+ ContextMenuChanged	Происходит при изменении значения свойства ContextMenu. (Унаследовано от Control.)
+ ContextMenuStripChanged	Происходит при изменении значения свойства ContextMenuStrip. (Унаследовано от Control.)
+ ControlAdded	Происходит при добавлении нового элемента управления к коллекции Control.ControlCollection. (Унаследовано от Control.)
+ ControlRemoved	Происходит при удалении элемента управления из коллекции Control.ControlCollection. (Унаследовано от Control.)
+ CurrentCellChanged	Происходит при изменении свойства CurrentCell.
+ CurrentCellDirtyStateChanged	Происходит, когда состояние ячейки изменяется в связи с изменением ее содержимого.
+ CursorChanged	Происходит при изменении значения свойства Cursor. (Унаследовано от Control.)
+ DataBindingComplete	Происходит после завершения операции привязки данных.
+ DataError	Происходит, когда внешний анализ данных или операция проверки выдают исключение или когда попытка зафиксировать данные в источнике данных приводит к сбою.
+ DataMemberChanged	Происходит при изменении значения свойства DataMember.
+ DataSourceChanged	Происходит при изменении значения свойства DataSource.
+ DefaultCellStyleChanged	Происходит при изменении значения свойства DefaultCellStyle.
+ DefaultValuesNeeded	Происходит, когда пользователь вводит строку для новой записи, после чего она может быть заполнена значениями по умолчанию.
+ Disposed	Происходит при удалении компонента вызовом метода Dispose. (Унаследовано от Component.)
+ DockChanged	Происходит при изменении значения свойства Dock. (Унаследовано от Control.)
+ DoubleClick	Происходит, когда элемент управления дважды щелкается. (Унаследовано от Control.)
+ DragDrop	Происходит по завершении операции перетаскивания. (Унаследовано от Control.)
+ DragEnter	Происходит при перетаскивании объекта в пределы элемента управления. (Унаследовано от Control.)
+ DragLeave	Происходит при перетаскивании объекта за пределы элемента управления. (Унаследовано от Control.)
+ DragOver	Происходит, когда объект перетаскивается через границу элемента управления. (Унаследовано от Control.)
+ EditingControlShowing	Происходит, когда отображается элемент управления для изменения ячейки.
+ EditModeChanged	Происходит при изменении значения свойства EditMode.
+ EnabledChanged	Происходит, если значение свойства Enabled было изменено. (Унаследовано от Control.)
+ Enter	Происходит при входе в элемент управления. (Унаследовано от Control.)
+ FontChanged	Происходит при изменении значения свойства Font.
+ ForeColorChanged	Происходит при изменении значения свойства ForeColor.
+ GiveFeedback	Происходит при выполнении операции перетаскивания. (Унаследовано от Control.)
+ GotFocus	Происходит при получении фокуса элементом управления. (Унаследовано от Control.)
+ GridColorChanged	Происходит при изменении значения свойства GridColor.
+ HandleCreated	Происходит при создании дескриптора для элемента управления. (Унаследовано от Control.)
+ HandleDestroyed	Происходит в процессе удаления дескриптора элемента управления. (Унаследовано от Control.)
+ HelpRequested	Происходит при запросе справки для элемента управления. (Унаследовано от Control.)
+ ImeModeChanged	Происходит при изменении свойства ImeMode. (Унаследовано от Control.)
+ Invalidated	Происходит, когда отображение элемента управления следует обновить. (Унаследовано от Control.)
+ KeyDown	Происходит при нажатии клавиши, если элемент управления имеет фокус. (Унаследовано от Control.)
+ KeyPress	Происходит при нажатии клавиши, если элемент управления имеет фокус. (Унаследовано от Control.)
+ KeyUp	Происходит, когда отпускается клавиша, если элемент управления имеет фокус. (Унаследовано от Control.)
+ Layout	Происходит, когда необходимо изменить позицию дочерних элементов управления данного элемента управления. (Унаследовано от Control.)
+ Leave	Происходит, когда фокус ввода покидает элемент управления. (Унаследовано от Control.)
+ LocationChanged	Происходит, если значение свойства Location было изменено. (Унаследовано от Control.)
+ LostFocus	Происходит при потере фокуса элементом управления. (Унаследовано от Control.)
+ MarginChanged	Происходит при изменении поля элемента управления. (Унаследовано от Control.)
+ MouseCaptureChanged	Происходит, когда элемент управления теряет или получает захват мыши. (Унаследовано от Control.)
+ MouseClick	Происходит при щелчке элемента управления мышью. (Унаследовано от Control.)
+ MouseDoubleClick	Происходит, когда элемент управления дважды щелкается мышью. (Унаследовано от Control.)
+ MouseDown	Происходит при нажатии кнопки мыши, если указатель мыши находится на элементе управления. (Унаследовано от Control.)
+ MouseEnter	Происходит, когда указатель мыши оказывается на элементе управления. (Унаследовано от Control.)
+ MouseHover	Происходит, когда указатель мыши задерживается на элементе управления. (Унаследовано от Control.)
+ MouseLeave	Происходит, когда указатель мыши покидает элемент управления. (Унаследовано от Control.)
+ MouseMove	Происходит при перемещении указателя мыши по элементу управления. (Унаследовано от Control.)
+ MouseUp	Происходит при отпускании кнопки мыши, когда указатель мыши находится на элементе управления. (Унаследовано от Control.)
+ MouseWheel	Происходит при движении колесика мыши, если элемент управления имеет фокус. (Унаследовано от Control.)
+ Move	Происходит при перемещении элемента управления. (Унаследовано от Control.)
+ MultiSelectChanged	Происходит при изменении значения свойства MultiSelect.
+ NewRowNeeded	Происходит, когда значение свойства VirtualMode объекта DataGridView равно true и пользователь переходит в новую строку, расположенную в нижней части объекта DataGridView.
+ PaddingChanged	Инфраструктура. Происходит при изменении значения свойства Padding.
+ Paint	Происходит при перерисовке элемента управления. (Унаследовано от Control.)
+ ParentChanged	Происходит при изменении значения свойства Parent. (Унаследовано от Control.)
+ PreviewKeyDown	Происходит перед событием KeyDown при нажатии клавиши, когда элемент управления имеет фокус. (Унаследовано от Control.)
+ QueryAccessibilityHelp	Происходит, когда объект AccessibleObject предоставляет справку для приложений со специальными возможностями. (Унаследовано от Control.)
+ QueryContinueDrag	Происходит во время операции перетаскивания и позволяет источнику перетаскивания определить, следует ли отменить эту операцию. (Унаследовано от Control.)
+ ReadOnlyChanged	Происходит при изменении свойства ReadOnly.
+ RegionChanged	Происходит при изменении значения свойства Region. (Унаследовано от Control.)
+ Resize	Происходит при изменении размеров элемента управления. (Унаследовано от Control.)
+ RightToLeftChanged	Происходит при изменении значения свойства RightToLeft. (Унаследовано от Control.)
+ RowContextMenuStripChanged	Происходит при изменении свойства ContextMenuStrip.
+ RowContextMenuStripNeeded	Происходит, когда требуется контекстное меню строки.
+ RowDefaultCellStyleChanged	Происходит при изменении значения свойства DefaultCellStyle для строки.
+ RowDirtyStateNeeded	Происходит, когда значением свойства VirtualMode элемента управления DataGridView является true и для объекта DataGridView требуется определить, имеются ли в текущей строке незафиксированные изменения.
+ RowDividerDoubleClick	Происходит, когда пользователь дважды щелкает разделитель между двумя строками.
+ RowDividerHeightChanged	Происходит при изменении свойства DividerHeight.
+ RowEnter	Происходит, когда строка получает фокус ввода, но перед этим становится текущей строкой.
+ RowErrorTextChanged	Происходит при изменении свойства ErrorText строки.
+ RowErrorTextNeeded	Происходит, когда требуется текст ошибки строки.
+ RowHeaderCellChanged	Происходит, когда пользователь изменяет содержимое ячейки заголовка строки.
+ RowHeaderMouseClick	Происходит, когда пользователь щелкает мышью внутри границ заголовка строки.
+ RowHeaderMouseDoubleClick	Происходит, когда заголовок строки был дважды щелкнут.
+ RowHeadersBorderStyleChanged	Происходит при изменении свойства RowHeadersBorderStyle.
+ RowHeadersDefaultCellStyleChanged	Происходит при изменении значения свойства RowHeadersDefaultCellStyle.
+ RowHeadersWidthChanged	Происходит при изменении значения свойства RowHeadersWidth.
+ RowHeadersWidthSizeModeChanged	Происходит при изменении значения свойства RowHeadersWidthSizeMode.
+ RowHeightChanged	Происходит при изменении значения свойства Height для строки.
+ RowHeightInfoNeeded	Происходит, когда запрашиваются сведения о высоте строки.
+ RowHeightInfoPushed	Происходит, когда пользователь изменяет высоту строки.
+ RowLeave	Происходит, когда из строки перемещается фокус ввода и она больше не является текущей строкой.
+ RowMinimumHeightChanged	Происходит при изменении значения свойства MinimumHeight для строки.
+ RowPostPaint	Происходит после окрашивания объекта DataGridViewRow.
+ RowPrePaint	Происходит перед окрашиванием объекта DataGridViewRow.
+ RowsAdded	Происходит после добавления новой строки к объекту DataGridView.
+ RowsDefaultCellStyleChanged	Происходит при изменении значения свойства RowsDefaultCellStyle.
+ RowsRemoved	Происходит при удалении строки или строк из объекта DataGridView.
+ RowStateChanged	Происходит при изменении состояния строки, например при перемещении фокуса в эту строку или из нее.
+ RowUnshared	Происходит, когда состояние строки изменяется с "общий доступ" на "общий доступ отменен".
+ RowValidated	Происходит после завершения проверки строки.
+ RowValidating	Происходит при проверке строки.
+ Scroll	Происходит, когда пользователь прокручивает содержимое элемента управления.
+ SelectionChanged	Происходит при изменении текущего выделения.
+ SizeChanged	Происходит при изменении значения свойства Size. (Унаследовано от Control.)
+ SortCompare	Происходит, когда объект DataGridView сравнивает две ячейки значений, чтобы выполнить операцию сортировки.
+ Sorted	Происходит, когда элемент управления DataGridView завершает операцию сортировки.
+ StyleChanged	Инфраструктура. Происходит при изменении стиля элемента управления.
+ SystemColorsChanged	Происходит при изменении системных цветов. (Унаследовано от Control.)
+ TabIndexChanged	Происходит при изменении значения свойства TabIndex. (Унаследовано от Control.)
+ TabStopChanged	Происходит при изменении значения свойства TabStop. (Унаследовано от Control.)
+ TextChanged	Инфраструктура. Происходит при изменении значения свойства Text.
+ UserAddedRow	Происходит, когда пользователь закончил добавление строки в элемент управления DataGridView.
+ UserDeletedRow	Происходит, когда пользователь закончил удаление строки из элемента управления DataGridView.
+ UserDeletingRow	Происходит, когда пользователь удаляет строку из элемента управления DataGridView.
+ Validated	Происходит по завершении проверки элемента управления. (Унаследовано от Control.)
+ Validating	Происходит при проверке элемента управления. (Унаследовано от Control.)
+ VisibleChanged	Происходит при изменении значения свойства Visible. (Унаследовано от Control.)
+
+Явные реализации интерфейса
+
+ ISupportInitialize.BeginInit	Описание этого элемента см. в описании метода BeginInit.
+ ISupportInitialize.EndInit	Описание этого элемента см. в описании метода EndInit.
+ IDropTarget.OnDragDrop	Инфраструктура. Вызывает событие DragDrop. (Унаследовано от Control.)
+ IDropTarget.OnDragEnter	Инфраструктура. Вызывает событие DragEnter. (Унаследовано от Control.)
+ IDropTarget.OnDragLeave	Инфраструктура. Вызывает событие DragLeave. (Унаследовано от Control.)
+ IDropTarget.OnDragOver	Инфраструктура. Вызывает событие DragOver. (Унаследовано от Control.)

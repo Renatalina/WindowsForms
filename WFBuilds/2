@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <ID>1</ID>
+    <FullName>Maria Anders</FullName>
+    <Birthday>25/02/1970</Birthday>
+    <Sex>Woman</Sex>
+    <Country>USA</Country>
+    <City>California</City>
+    <Height>168</Height>
+    <Weight>60</Weight>
+    <Hair>Brown</Hair>
+    <Eyes>Green</Eyes>
+  </Person>
+  <Person>
+    <ID>3</ID>
+    <FullName>Martin Sommer</FullName>
+    <Birthday>12/01/2001</Birthday>
+    <Sex>Man</Sex>
+    <Country>Dania</Country>
+    <City>Copengagen</City>
+    <Height>189</Height>
+    <Weight>80</Weight>
+    <Hair>Red</Hair>
+    <Eyes>Brown</Eyes>
+  </Person>
+  <Person>
+    <ID>8</ID>
+    <FullName>Maria Sharapova</FullName>
+    <Birthday>09/08/1991</Birthday>
+    <Sex>Woman</Sex>
+    <Country>Rassia</Country>
+    <City>SantPetersburg</City>
+    <Height>177</Height>
+    <Weight>60</Weight>
+    <Hair>White</Hair>
+    <Eyes>Grey</Eyes>
+  </Person>
+  <Person>
+    <ID>9</ID>
+    <FullName>Kim Kardashian</FullName>
+    <Birthday>23/09/1974</Birthday>
+    <Sex>Woman</Sex>
+    <Country>USA</Country>
+    <City>Mephis</City>
+    <Height>158</Height>
+    <Weight>75</Weight>
+    <Hair>Brown</Hair>
+    <Eyes>Black</Eyes>
+  </Person>
+</ArrayOfPerson>

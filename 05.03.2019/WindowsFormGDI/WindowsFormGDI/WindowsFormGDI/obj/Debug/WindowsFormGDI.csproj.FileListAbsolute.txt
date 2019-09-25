@@ -1,0 +1,10 @@
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\bin\Debug\WindowsFormGDI.exe.config
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\bin\Debug\WindowsFormGDI.exe
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\bin\Debug\WindowsFormGDI.pdb
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\obj\Debug\WindowsFormGDI.csprojAssemblyReference.cache
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\obj\Debug\WindowsFormGDI.Form1.resources
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\obj\Debug\WindowsFormGDI.Properties.Resources.resources
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\obj\Debug\WindowsFormGDI.csproj.GenerateResource.cache
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\obj\Debug\WindowsFormGDI.csproj.CoreCompileInputs.cache
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\obj\Debug\WindowsFormGDI.exe
+C:\Users\Захарченко.Марина\source\repos\WindowsFormGDI\WindowsFormGDI\obj\Debug\WindowsFormGDI.pdb

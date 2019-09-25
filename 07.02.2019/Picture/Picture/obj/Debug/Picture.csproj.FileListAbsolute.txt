@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\bin\Debug\Picture.exe.config
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\bin\Debug\Picture.exe
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\bin\Debug\Picture.pdb
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\obj\Debug\Picture.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\obj\Debug\Picture.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\obj\Debug\Picture.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\obj\Debug\Picture.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\obj\Debug\Picture.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\obj\Debug\Picture.exe
+C:\Users\Висковатых.Наталия\source\repos\Picture\Picture\obj\Debug\Picture.pdb

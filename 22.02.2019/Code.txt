@@ -1,0 +1,14 @@
+https://meet.google.com/pgi-jstd-xyg
+
+
+            _manager = new ResourceManager(
+                "WindowsFormsResources.Properties.Resources",
+                Assembly.GetExecutingAssembly()
+                );
+
+            lblRes.Text = _manager.GetString($"String{_label}");
+            Icon = _manager.GetObject($"MISC{_icon}") as Icon;
+
+            timerRes.Enabled = true;
+
+Написать игру «Пятнашки», для отображения процесса прохождения игры использовать ProgressBar.

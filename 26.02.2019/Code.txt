@@ -1,0 +1,137 @@
+        // создание €чеек различного типа
+        private void Example2()
+        {
+            //DataGridView _grid = new DataGridView();
+            //_grid.Dock = DockStyle.Fill;//«адает позицию и способ закреплени€ элемента управлени€.
+            dataGridView2.AllowUserToAddRows = false;//¬озвращает или задает значение, указывающее, отображаетс€ ли дл€ пользовател€ параметр добавлени€ строк.
+
+            // выравнивание всех значений по центру
+            dataGridView2.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+            //Controls.Add(_grid);
+            dataGridView2.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "TextBoxColumn",
+                AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+            }
+                );
+
+            dataGridView2.Columns.Add(new DataGridViewLinkColumn());
+            dataGridView2.Columns[1].HeaderText = "LinkColumn";
+            dataGridView2.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridView2.Columns.Add(new DataGridViewButtonColumn());
+            dataGridView2.Columns[2].HeaderText = "ButtonColumn";
+            dataGridView2.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridView2.Columns.Add(new DataGridViewCheckBoxColumn());
+            dataGridView2.Columns[3].HeaderText = "CheckBoxColumn";
+            dataGridView2.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridView2.Columns.Add(new DataGridViewComboBoxColumn());
+            dataGridView2.Columns[4].HeaderText = "ComboBoxColumn";
+            dataGridView2.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridView2.Columns.Add(new DataGridViewImageColumn());
+            dataGridView2.Columns[5].HeaderText = "ViewImageColumn";
+            //dataGridView2.Columns[5].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+
+            dataGridView2.Rows.Add(); // добавл€ет одну строку, заполн€€ ее значени€ми по умолчанию
+            // добавл€ем еще 4 строки - все €чейки TextBox
+            for (int i = 0; i < 4; i++)
+            {
+                DataGridViewRow heter_row = new DataGridViewRow();
+
+                for (int j = 0; j < dataGridView2.Columns.Count; j++)
+                    heter_row.Cells.Add(new DataGridViewTextBoxCell());
+
+                switch (i)
+                {
+                    case 0:
+                        heter_row.HeaderCell.Value = "Value";
+                        break;
+                    case 1:
+                        heter_row.HeaderCell.Value = "ValueType";
+                        break;
+                    case 2:
+                        heter_row.HeaderCell.Value = "FormattedValue";
+                        break;
+                    case 3:
+                        heter_row.HeaderCell.Value = "FormattedValueType";
+                        break;
+                }
+                dataGridView2.Rows.Add(heter_row);
+            }
+            //  орректирует ширину заголовков строк в соответствии с содержимым заголовка (автоподбор ширины заголовков)
+            dataGridView2.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders; // измен€етс€ автоматически
+                                                                                                              // регулируютс€ один раз - автоматически не измен€етс€
+                                                                                                              //dataGridView2.AutoResizeRowHeadersWidth(DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders);
+
+
+            // «аполнение строки 0
+
+            DataGridViewRow row0 = dataGridView2.Rows[0];
+            row0.HeaderCell.Value = "¬нешний вид €чейки";
+
+            DataGridViewTextBoxCell cell0 = (DataGridViewTextBoxCell)row0.Cells[0];
+            cell0.Value = "я просто текст";
+
+            DataGridViewLinkCell cell1 = (DataGridViewLinkCell)row0.Cells[1];
+            cell1.Value = "я ссылка!";
+
+            DataGridViewButtonCell cell2 = (DataGridViewButtonCell)row0.Cells[2];
+            cell2.Value = "я кнопка";
+
+            DataGridViewCheckBoxCell cell3 = (DataGridViewCheckBoxCell)row0.Cells[3];
+            cell3.Value = true;
+
+            DataGridViewComboBoxCell cell4 = (DataGridViewComboBoxCell)row0.Cells[4];
+            cell4.Items.AddRange(new string[] { "Trace", "Debug", "Release" });
+            cell4.Value = "Release";
+
+            DataGridViewImageCell cell5 = (DataGridViewImageCell)row0.Cells[5];
+            cell5.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            //cell5.Value = Image.FromFile("!.bmp");
+            //cell5.Value = DataGridView.Properties.Resources._; // image-ресурс "!.bmp"
+            cell5.Value = DataGridView.Properties.Resources.HappyDude; // image-ресурс "HappyDude"
+
+            // «аполнение строки 1
+            for (int j = 0; j < dataGridView2.Columns.Count; j++)
+                dataGridView2.Rows[1].Cells[j].Value = dataGridView2.Rows[0].Cells[j].Value.ToString();
+
+            // «аполнение строки 2
+            for (int j = 0; j < dataGridView2.Columns.Count; j++)
+                dataGridView2.Rows[2].Cells[j].Value =
+                 dataGridView2.Rows[0].Cells[j].ValueType.ToString();
+
+            // «аполнение строки 3
+            for (int j = 0; j < dataGridView2.Columns.Count; j++)
+                dataGridView2.Rows[3].Cells[j].Value =
+                  dataGridView2.Rows[0].Cells[j].FormattedValue.ToString();
+
+            // «аполнение строки 4
+            for (int j = 0; j < dataGridView2.Columns.Count; j++)
+                dataGridView2.Rows[4].Cells[j].Value =
+                  dataGridView2.Rows[0].Cells[j].FormattedValueType.ToString();  /**/
+        }
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+            _companyList.Add(new Company(1,"Philips","Maria Anders","(555)37-45"));
+            _companyList.Add(new Company(2, "Sony", "Ana Trucilo", "(553)33-45"));
+            _companyList.Add(new Company(3, "Sanyo", "Martin Sommer", "(545)27-48"));
+            _companyList.Add(new Company(4, "Samsung", "Tomas Hardy", "(527)12-52"));
+            _companyList.Add(new Company(5, "Toshiba", "Hanna Moos", "(638)29-78"));
+            _companyList.Add(new Company(6, "JVC", "Antonio Morento", "(912)73-44"));
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        private void OnPositionChanged(object sender, EventArgs e)
+        {
+            tbPosition.Text = _bs.Position.ToString();
+        }
+
+        private void tbPosition_TextChanged(object sender, EventArgs e)
+        {
+            int enteredPos; // введенное значение позиции
+            bool success = int.TryParse(tbPosition.Text, out enteredPos);
+            if (success)
+                _bs.Position = enteredPos;
+        }

@@ -1,0 +1,38 @@
+https://meet.google.com/nmc-skbw-bqz
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ openFileDialog1.Filter = "Text files (*.txt)|*.txt|CS files(*.cs)|*.cs|All files(*.*)|*.*";
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        private void btnForm_Click(object sender, EventArgs e)
+        {
+            Form form = new Form
+            {
+                Name = "Form2",
+                Width = 300,
+                Height = 200
+            };
+
+            Button button = new Button
+            {
+                Name = "dfdf",
+                Width = 100,
+                Height = 30,
+                Text="Click",
+                Location = new Point(20, 40)
+            };
+            button.Click += Button_Click;
+
+            form.Controls.Add(button);
+
+            form.ShowDialog();
+        }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("sdfsdf");
+        }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

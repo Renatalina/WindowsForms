@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\bin\Debug\WFHotCold.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\bin\Debug\WFHotCold.exe
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\bin\Debug\WFHotCold.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\obj\Debug\WFHotCold.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\obj\Debug\WFHotCold.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\obj\Debug\WFHotCold.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\obj\Debug\WFHotCold.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\obj\Debug\WFHotCold.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\obj\Debug\WFHotCold.exe
+C:\Users\Висковатых.Наталия\source\repos\WFHotCold\WFHotCold\obj\Debug\WFHotCold.pdb

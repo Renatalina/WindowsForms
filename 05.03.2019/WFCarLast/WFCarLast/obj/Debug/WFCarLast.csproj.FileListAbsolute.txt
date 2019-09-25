@@ -1,0 +1,13 @@
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\bin\Debug\WFCarLast.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\bin\Debug\WFCarLast.exe
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\bin\Debug\WFCarLast.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\bin\Debug\CarControlLibrary.dll
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\bin\Debug\CarControlLibrary.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.csproj.CopyComplete
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.exe
+C:\Users\Висковатых.Наталия\source\repos\WFCarLast\WFCarLast\obj\Debug\WFCarLast.pdb

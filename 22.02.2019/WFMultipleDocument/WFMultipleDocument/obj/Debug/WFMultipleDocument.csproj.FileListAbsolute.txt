@@ -1,0 +1,11 @@
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\bin\Debug\WFMultipleDocument.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\bin\Debug\WFMultipleDocument.exe
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\bin\Debug\WFMultipleDocument.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.Form2.resources
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.exe
+C:\Users\Висковатых.Наталия\source\repos\WFMultipleDocument\WFMultipleDocument\obj\Debug\WFMultipleDocument.pdb

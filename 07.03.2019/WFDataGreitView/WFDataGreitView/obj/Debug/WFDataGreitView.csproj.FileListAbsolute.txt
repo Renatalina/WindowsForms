@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\bin\Debug\WFDataGreitView.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\bin\Debug\WFDataGreitView.exe
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\bin\Debug\WFDataGreitView.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\obj\Debug\WFDataGreitView.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\obj\Debug\WFDataGreitView.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\obj\Debug\WFDataGreitView.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\obj\Debug\WFDataGreitView.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\obj\Debug\WFDataGreitView.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\obj\Debug\WFDataGreitView.exe
+C:\Users\Висковатых.Наталия\source\repos\WFDataGreitView\WFDataGreitView\obj\Debug\WFDataGreitView.pdb

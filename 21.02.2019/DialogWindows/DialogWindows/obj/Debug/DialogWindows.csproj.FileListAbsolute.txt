@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\bin\Debug\DialogWindows.exe.config
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\bin\Debug\DialogWindows.exe
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\bin\Debug\DialogWindows.pdb
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\obj\Debug\DialogWindows.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\obj\Debug\DialogWindows.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\obj\Debug\DialogWindows.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\obj\Debug\DialogWindows.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\obj\Debug\DialogWindows.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\obj\Debug\DialogWindows.exe
+C:\Users\Висковатых.Наталия\source\repos\DialogWindows\DialogWindows\obj\Debug\DialogWindows.pdb

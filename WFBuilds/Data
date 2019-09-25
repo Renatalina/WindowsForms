@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <ID>1</ID>
+    <FullName>Maria Anders</FullName>
+    <Birthday>25/02/1970</Birthday>
+    <Sex>Woman</Sex>
+    <Country>USA</Country>
+    <City>California</City>
+    <Height>168</Height>
+    <Weight>60</Weight>
+    <Hair>Brown</Hair>
+    <Eyes>Green</Eyes>
+  </Person>
+  <Person>
+    <ID>2</ID>
+    <FullName>Ana Trucilo</FullName>
+    <Birthday>30/02/1990</Birthday>
+    <Sex>Woman</Sex>
+    <Country>Belorassia</Country>
+    <City>Belacerkov</City>
+    <Height>162</Height>
+    <Weight>70</Weight>
+    <Hair>White</Hair>
+    <Eyes>Brown</Eyes>
+  </Person>
+  <Person>
+    <ID>3</ID>
+    <FullName>Martin Sommer</FullName>
+    <Birthday>12/01/2001</Birthday>
+    <Sex>Man</Sex>
+    <Country>Dania</Country>
+    <City>Copengagen</City>
+    <Height>189</Height>
+    <Weight>80</Weight>
+    <Hair>Red</Hair>
+    <Eyes>Brown</Eyes>
+  </Person>
+  <Person>
+    <ID>4</ID>
+    <FullName>Tomas Hardy</FullName>
+    <Birthday>14/07/1977</Birthday>
+    <Sex>Man</Sex>
+    <Country>GreatBritan</Country>
+    <City>London</City>
+    <Height>179</Height>
+    <Weight>75</Weight>
+    <Hair>Brown</Hair>
+    <Eyes>Blue</Eyes>
+  </Person>
+  <Person>
+    <ID>5</ID>
+    <FullName>Hanna Moos</FullName>
+    <Birthday>26/05/1980</Birthday>
+    <Sex>Woman</Sex>
+    <Country>Greece</Country>
+    <City>Afins</City>
+    <Height>169</Height>
+    <Weight>50</Weight>
+    <Hair>Black</Hair>
+    <Eyes>Brown</Eyes>
+  </Person>
+  <Person>
+    <ID>6</ID>
+    <FullName>Antonio Morento</FullName>
+    <Birthday>20/11/1984</Birthday>
+    <Sex>Man</Sex>
+    <Country>Italy</Country>
+    <City>Venic</City>
+    <Height>185</Height>
+    <Weight>90</Weight>
+    <Hair>Black</Hair>
+    <Eyes>Black</Eyes>
+  </Person>
+  <Person>
+    <ID>7</ID>
+    <FullName>Ferdinand Lyacavelli</FullName>
+    <Birthday>10/10/1979</Birthday>
+    <Sex>Man</Sex>
+    <Country>Italy</Country>
+    <City>Roma</City>
+    <Height>171</Height>
+    <Weight>70</Weight>
+    <Hair>Black</Hair>
+    <Eyes>Blue</Eyes>
+  </Person>
+  <Person>
+    <ID>8</ID>
+    <FullName>Maria Sharapova</FullName>
+    <Birthday>09/08/1991</Birthday>
+    <Sex>Woman</Sex>
+    <Country>Rassia</Country>
+    <City>SantPetersburg</City>
+    <Height>177</Height>
+    <Weight>60</Weight>
+    <Hair>White</Hair>
+    <Eyes>Grey</Eyes>
+  </Person>
+  <Person>
+    <ID>9</ID>
+    <FullName>Kim Kardashian</FullName>
+    <Birthday>23/09/1974</Birthday>
+    <Sex>Woman</Sex>
+    <Country>USA</Country>
+    <City>Mephis</City>
+    <Height>158</Height>
+    <Weight>75</Weight>
+    <Hair>Brown</Hair>
+    <Eyes>Black</Eyes>
+  </Person>
+</ArrayOfPerson>

@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\bin\Debug\PickerImageTool.exe.config
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\bin\Debug\PickerImageTool.exe
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\bin\Debug\PickerImageTool.pdb
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\obj\Debug\PickerImageTool.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\obj\Debug\PickerImageTool.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\obj\Debug\PickerImageTool.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\obj\Debug\PickerImageTool.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\obj\Debug\PickerImageTool.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\obj\Debug\PickerImageTool.exe
+C:\Users\Висковатых.Наталия\source\repos\PickerImageTool\PickerImageTool\obj\Debug\PickerImageTool.pdb

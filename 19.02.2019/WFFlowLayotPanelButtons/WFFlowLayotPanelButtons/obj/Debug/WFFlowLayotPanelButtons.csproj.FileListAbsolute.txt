@@ -1,0 +1,11 @@
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\bin\Debug\WFFlowLayotPanelButtons.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\bin\Debug\WFFlowLayotPanelButtons.exe
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\bin\Debug\WFFlowLayotPanelButtons.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.Form2.resources
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.exe
+C:\Users\Висковатых.Наталия\source\repos\WFFlowLayotPanelButtons\WFFlowLayotPanelButtons\obj\Debug\WFFlowLayotPanelButtons.pdb

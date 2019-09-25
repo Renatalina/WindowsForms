@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\bin\Debug\WFResourses.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\bin\Debug\WFResourses.exe
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\bin\Debug\WFResourses.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\obj\Debug\WFResourses.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\obj\Debug\WFResourses.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\obj\Debug\WFResourses.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\obj\Debug\WFResourses.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\obj\Debug\WFResourses.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\obj\Debug\WFResourses.exe
+C:\Users\Висковатых.Наталия\source\repos\WFResourses\WFResourses\obj\Debug\WFResourses.pdb

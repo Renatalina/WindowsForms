@@ -1,0 +1,51 @@
+            LinearGradientBrush linearGradient = new LinearGradientBrush(
+                new Point(25, 200), new Point(150, 150), Color.CadetBlue, Color.Beige);
+            linearGradient.WrapMode = WrapMode.TileFlipXY;
+            graphics.FillPolygon(linearGradient,
+                new Point[] {
+                    new Point(50,70),
+                    new Point(150,240),
+                    new Point(100,280),
+                    new Point(60,200)
+                });
+            graphics.FillRectangle(linearGradient, new Rectangle(340, 70, 400, 200));
+
++++++++++++++++++++++
+
+
+            Point[] pointArray = new Point[3]; // לאססטג עמקוך
+            pointArray[0] = new Point(300, 250);
+            pointArray[1] = new Point(400, 400);
+            pointArray[2] = new Point(250, 400);
+
+            PathGradientBrush pgb = new PathGradientBrush(pointArray);
+            pgb.CenterColor = Color.Violet;
+            pgb.CenterPoint = new Point(300, 300);
+            pgb.SurroundColors = new Color[] { Color.Pink, Color.Purple, Color.RosyBrown };
+
+            gr.FillRectangle(pgb, new Rectangle(230, 250, 200, 200));
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+        private void DrawBall(Graphics grfx, Rectangle rect)//סענ. 257-258 ֿועצמכüה עמל. 2
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(rect);
+            PathGradientBrush pgbrush = new PathGradientBrush(path);
+            pgbrush.CenterPoint = new PointF((rect.Left + rect.Right) / 2.3f, (rect.Top + rect.Bottom) / 2.3f);
+            pgbrush.CenterColor = Color.White;
+            pgbrush.SurroundColors = new Color[] { Color.Red };
+            grfx.FillRectangle(pgbrush, rect);
+        }
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            Pen pen = new Pen(Color.Red);
+
+            graphics.TranslateTransform(graphics.VisibleClipBounds.Size.Width / 2, graphics.VisibleClipBounds.Size.Height / 2);
+
+            for (int i = 0; i < 36; i++)
+            {
+                graphics.DrawRectangle(pen, 0, 0, 100, 100);
+                graphics.RotateTransform(10);
+            }

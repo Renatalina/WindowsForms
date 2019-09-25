@@ -1,0 +1,10 @@
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\bin\Debug\WindowsFormsCS.exe.config
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\bin\Debug\WindowsFormsCS.exe
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\bin\Debug\WindowsFormsCS.pdb
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\obj\Debug\WindowsFormsCS.csprojResolveAssemblyReference.cache
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\obj\Debug\WindowsFormsCS.MainForm.resources
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\obj\Debug\WindowsFormsCS.Properties.Resources.resources
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\obj\Debug\WindowsFormsCS.csproj.GenerateResource.cache
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\obj\Debug\WindowsFormsCS.csproj.CoreCompileInputs.cache
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\obj\Debug\WindowsFormsCS.exe
+C:\Users\Задерей.Юрий\source\repos\WindowsFormsCS\WindowsFormsCS\obj\Debug\WindowsFormsCS.pdb

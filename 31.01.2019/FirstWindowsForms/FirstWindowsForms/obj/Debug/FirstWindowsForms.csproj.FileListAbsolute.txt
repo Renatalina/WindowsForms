@@ -1,0 +1,10 @@
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\bin\Debug\FirstWindowsForms.exe.config
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\bin\Debug\FirstWindowsForms.exe
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\bin\Debug\FirstWindowsForms.pdb
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\obj\Debug\FirstWindowsForms.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\obj\Debug\FirstWindowsForms.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\obj\Debug\FirstWindowsForms.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\obj\Debug\FirstWindowsForms.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\obj\Debug\FirstWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\obj\Debug\FirstWindowsForms.exe
+C:\Users\Висковатых.Наталия\source\repos\FirstWindowsForms\FirstWindowsForms\obj\Debug\FirstWindowsForms.pdb

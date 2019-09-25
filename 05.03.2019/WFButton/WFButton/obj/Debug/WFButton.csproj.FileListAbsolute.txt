@@ -1,0 +1,13 @@
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\bin\Debug\WFButton.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\bin\Debug\WFButton.exe
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\bin\Debug\WFButton.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\bin\Debug\DLLButton.dll
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\bin\Debug\DLLButton.pdb
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.csproj.CopyComplete
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.exe
+C:\Users\Висковатых.Наталия\source\repos\WFButton\WFButton\obj\Debug\WFButton.pdb
